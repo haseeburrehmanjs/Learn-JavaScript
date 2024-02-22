@@ -1,3 +1,6 @@
+alert ("what is your Name")
+alert ("Haseeb")
+
 var userName = "Haseeb"
 var lastName = "Ur Rehman"
 var age = 20
