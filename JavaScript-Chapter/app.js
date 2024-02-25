@@ -51,5 +51,22 @@
 // ==== Chapter 03 ====
 
 
-// ==== Chapter 03  Q 1====
+// ==== Chapter 03  Q 1 ====
+// var age = 16;
+// alert("i am " + age + " years old");
+
+// ==== Chapter 03  Q 2 ====
+// var hisHer = 2;
+// alert("you have visted this site " + hisHer + " times");
+
+// ==== Chapter 03  Q 3 ====
+// var birthYear = 2007;
+// alert("My birth year " + birthYear);
+
+// ==== Chapter 03  Q 4 ====
+var visitorsName = "Haseeb Ur Rehman";
+var productTilte = "on XYZ Clothing store"
+var quantity = " ordered 5 T-shirt(s)"
+
+alert(visitorsName + '' + quantity + '' + productTilte);
 
