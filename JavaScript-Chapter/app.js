@@ -64,9 +64,9 @@
 // alert("My birth year " + birthYear);
 
 // ==== Chapter 03  Q 4 ====
-var visitorsName = "Haseeb Ur Rehman";
-var productTilte = "on XYZ Clothing store"
-var quantity = " ordered 5 T-shirt(s)"
+// var visitorsName = "Haseeb Ur Rehman";
+// var productTilte = "on XYZ Clothing store"
+// var quantity = " ordered 5 T-shirt(s)"
 
-alert(visitorsName + '' + quantity + '' + productTilte);
+// alert(visitorsName + '' + quantity + '' + productTilte);
 
