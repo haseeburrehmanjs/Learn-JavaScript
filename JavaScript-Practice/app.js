@@ -49,15 +49,30 @@
 // console.log(500);
 // console.log(obtainNumber/totalNumber*100);
 
-var math = +prompt("Math Marks");
-var Science = +prompt("Science Marks");
-var Physices = +prompt("Physices Marks");
+// var math = +prompt("Math Marks");
+// var Science = +prompt("Science Marks");
+// var Physices = +prompt("Physices Marks");
+// var Biology = +prompt("Biology Marks");
+// var Chemistry = +prompt("Chemistry Marks");
+
+// var obtain = +(math + Science + Physices + Biology + Chemistry);
+// var totalNum = 500;
+
+// console.log(obtain);
+// console.log(totalNum);
+// console.log(obtain/totalNum*100);
+
+
 var Biology = +prompt("Biology Marks");
+var Physices = +prompt("Physices Marks");
 var Chemistry = +prompt("Chemistry Marks");
+var English = +prompt("English Marks");
+var Urdu = +prompt("Urdu Marks");
 
-var obtain = +(math + Science + Physices + Biology + Chemistry);
-var totalNum = 500;
+var obtainNumber = +(Biology + Physices + Chemistry + English + Urdu);
+var totalMarks = 500;
 
-console.log(obtain);
-console.log(totalNum);
-console.log(obtain/totalNum*100);
+console.log("Obtain Marks ==> " + obtainNumber);
+console.log("Total Marks ==> " + totalMarks);
+console.log("Percentage ==> " + obtainNumber/totalMarks*100);
+
