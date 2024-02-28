@@ -22,10 +22,10 @@
 
 // var evenOdd = +prompt('Write Number Here!')
 
-// if (evenOdd % 2){
-//     console.log('this is odd Number')
+// if (evenOdd % 2 == 0){
+//     console.log('this is even Number')
 // }else {
-//     console.log('this is even number');
+//     console.log('this is odd number');
 // }
 
 
@@ -45,6 +45,40 @@
 
 
 // === IF ELSE STATEMENTS Q 4 ===
+
+// 4. Write a program that prompts the user for their name, and then
+// displays a special greeting to that person if their name is the
+// same as yours. If the name entered by the user is anything
+// other than your name, your code should not produce any
+// output.
+
+// var userName = prompt('Please Enter your Name!')
+
+// if (userName == "Haseeb"){
+//     console.log("Hello, Haseeb! It's great to see you again!")
+// }else {
+//     console.log("Do nothing if the name entered is not 'Haseeb' ")
+// }
+
+// === IF ELSE STATEMENTS Q 5 ===
+
+// 5. Write a program to check whether the given input number is
+// divisible by 3 or not by using Switch Case statements. Show a
+// message “Number is not divisible by 3” or “Number is divisible
+// by 3”.
+
+// var number = prompt('Write Number Here!')
+
+// if (number % 3 == 0){
+//     console.log('Number is divisible by 3');
+// }else {
+//     console.log('Number is  not divisible by 3');
+// }
+
+
+
+
+
 
 
 
