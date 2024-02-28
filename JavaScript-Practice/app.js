@@ -63,16 +63,54 @@
 // console.log(obtain/totalNum*100);
 
 
-var Biology = +prompt("Biology Marks");
-var Physices = +prompt("Physices Marks");
-var Chemistry = +prompt("Chemistry Marks");
-var English = +prompt("English Marks");
-var Urdu = +prompt("Urdu Marks");
+// var Biology = +prompt("Biology Marks");
+// var Physices = +prompt("Physices Marks");
+// var Chemistry = +prompt("Chemistry Marks");
+// var English = +prompt("English Marks");
+// var Urdu = +prompt("Urdu Marks");
 
-var obtainNumber = +(Biology + Physices + Chemistry + English + Urdu);
-var totalMarks = 500;
+// var obtainNumber = +(Biology + Physices + Chemistry + English + Urdu);
+// var totalMarks = 500;
 
-console.log("Obtain Marks ==> " + obtainNumber);
-console.log("Total Marks ==> " + totalMarks);
-console.log("Percentage ==> " + obtainNumber/totalMarks*100);
+// console.log("Obtain Marks ==> " + obtainNumber);
+// console.log("Total Marks ==> " + totalMarks);
+// console.log("Percentage ==> " + obtainNumber/totalMarks*100);
+
+
+// var Biology = +prompt("Biology Marks");
+// var Physices = +prompt("Physices Marks");
+// var Chemistry = +prompt("Chemistry Marks");
+// var math = +prompt("math Marks");
+// var Urdu = +prompt("Urdu Marks");
+
+// var obtain = +(Biology + Physices + Chemistry + math + Urdu);
+// var totalMarks = 500;
+
+// console.log(obtain);
+// console.log(totalMarks);
+// console.log(obtain/totalMarks*100);
+
+
+
+
+// var persentage = +prompt("what is your persentage")
+
+// if (persentage > 70 && 50 < persentage) {
+//     console.log(' "A" Grade');
+// }else if (persentage < 50){
+//     console.log("B Grade")
+// }else {
+//     console.log(persentage);
+// }
+
+// ++num preincriment
+// num++ costincrement
+
+
+// var Divison = +prompt("Write is even Number")
+// if (Divison %  2 === 0){
+//     console.log ('number is divisible by 2')
+// }else{
+//     console.log('number is not divisible by 2')
+// }
 
