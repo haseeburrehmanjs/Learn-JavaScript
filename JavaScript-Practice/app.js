@@ -108,9 +108,30 @@
 
 
 // var Divison = +prompt("Write is even Number")
+
 // if (Divison %  2 === 0){
-//     console.log ('number is divisible by 2')
+//     document.write ('number is divisible by 2')
 // }else{
-//     console.log('number is not divisible by 2')
+//     document.write ('number is not divisible by 2')
+// }
+
+
+// var age = +prompt('Write your age here!')
+
+// if (age >= 18 && age <= 40){
+//     console.log("you are eligble");
+// }else if (age > 40){
+//     console.log("you are out of date");
+// }else {
+//     console.log('you are not eligble');
+// }
+
+
+// var clintNumber = +prompt('write number here!')
+
+// if (clintNumber % 3 === 0){
+//     console.log("Number divion by 3.");
+// }else {
+//     console.log("number not divion by 3");
 // }
 
