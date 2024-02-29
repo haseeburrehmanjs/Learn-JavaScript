@@ -135,3 +135,25 @@
 //     console.log("number not divion by 3");
 // }
 
+
+// var math = +prompt("Please Ente Your Math Marks");
+// var Physices = +prompt("Please Ente Your Physices Marks");
+// var Chemistry = +prompt("Please Ente Your Chemistry Marks");
+// var Biology = +prompt("Please Ente Your Biology Marks");
+// var totalMarks = 400;
+// var obtain = math + Physices + Chemistry + Biology;
+
+// console.log("Here is Your Marks ==> " + obtain);
+// console.log("Here is Total Marks ==> " + totalMarks);
+// console.log("Here is Your Persentage ==> " + obtain/totalMarks*100);
+
+
+// var age = +prompt("Plase Enter Your Age!");
+
+// if (age > 18){
+//     console.log("Too Old");
+// }else if (age < 18){
+//     console.log("Too Young");
+// }else {
+//     console.log(age);
+// }
