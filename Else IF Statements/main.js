@@ -37,10 +37,10 @@
 
 // var age = +prompt('Write your age here!')
 
-// if (age <= 18){
-//     console.log('Too young');
-// }else {
-//     console.log('Too enough');
+// if (age <=18 ){
+//     console.log("too young");
+// }else if (age > 18){
+//     console.log("Old enough");
 // }
 
 
@@ -83,11 +83,12 @@
 // uppercase letter or lower case letter. (Hint: ASCII codes:-
 // A=65, Z=90, a=97, z=122)
 
-var valueType = prompt('Please Enter your Name!')
 
-if (valueType = UPERCASE){
-    console.log("Upercase");
-}
+
+
+
+
+
 
 
 

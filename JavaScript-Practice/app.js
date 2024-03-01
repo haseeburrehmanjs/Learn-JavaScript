@@ -151,9 +151,45 @@
 // var age = +prompt("Plase Enter Your Age!");
 
 // if (age > 18){
-//     console.log("Too Old");
+//     console.log("eligible");
 // }else if (age < 18){
-//     console.log("Too Young");
+//     console.log("Not eligible");
 // }else {
 //     console.log(age);
 // }
+
+// var number1 = +prompt("Write Your Number");
+// var number2 = +prompt("Write Your Second Number");
+
+// if (number1)
+
+
+// function userNum(firstNum , lastNum){
+//     console.log("Substraction ==> " + firstNum + lastNum);
+// }
+// userNum(13 , 13)
+
+// function showWords(){
+//     console.log("Hello Farig") 
+//     return 'haseeb'
+// }
+// showWords()
+// var myFunt = showWords()
+// console.log(myFunt);
+
+
+
+// function haseebPersentage(math , Science , Biology , Chemistry){
+//     console.log(math + Science + Science + Biology + Chemistry)
+//     return 
+// }
+
+
+// var heading = document.querySelector("#head");
+// console.log(heading.innerHTML);
+// heading.innerHTML = "Change Through By javascript";
+
+
+// var heading = document.querySelector("#head")
+// console.log(heading.innerHTML);
+// heading.innerHTML = "Change Through js"
