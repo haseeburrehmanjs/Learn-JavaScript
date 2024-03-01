@@ -218,13 +218,13 @@
 
 // IF/ELSE Statement 
 
-let userAge = +prompt("PLease Enter Your Age");
+// let userAge = +prompt("PLease Enter Your Age");
 
-if (userAge >= 18){
-    console.log("Congratulation You Can make Your CNIC");
-}else {
-    console.log("You are under age you are not make Your CNIC");
-}
+// if (userAge >= 18){
+//     console.log("Congratulation You Can make Your CNIC");
+// }else {
+//     console.log("You are under age you are not make Your CNIC");
+// }
 
 // let userData = +prompt("What is Your Persentage")
 
@@ -237,3 +237,23 @@ if (userAge >= 18){
 // }else if (userData <= 100){
 //     console.log("Congratulation You are A1 grade");
 // }
+
+
+// 10. Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then give
+// message “ Please enter your password”
+// ii. Check if both passwords are same. If they are same,
+// show message “Correct! The password you entered
+// matches the original password”. Show “Incorrect
+// password” otherwise.
+
+var yourPassword = prompt("Enter Your Password");
+
+if (yourPassword == "Haseeb"){
+    console.log("Correct! The password you entered");
+}else {
+    console.log("Incorrect password");
+}

@@ -84,6 +84,48 @@
 // A=65, Z=90, a=97, z=122)
 
 
+// === IF ELSE STATEMENTS Q 10 ===
+
+
+// 10. Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then give
+// message “ Please enter your password”
+// ii. Check if both passwords are same. If they are same,
+// show message “Correct! The password you entered
+// matches the original password”. Show “Incorrect
+// password” otherwise.
+
+// var password = prompt("Enter Your Password")
+
+// if (password === "Haseeb"){
+//     console.log("Correct! The password you entered matches the original password");
+// }else {
+//     console.log("Incorrect password");
+// }
+
+
+// === IF ELSE STATEMENTS Q 10 ===
+
+
+// 11. Write a program that adds an else statement to the following
+// script to display “You are not Fahad”
+// var firstName = "Ali";
+// if (firstName === "Fahad") {
+//  document.write("Hello Fahad!");
+// }
+
+// var firstName = prompt("Write Your Name")
+
+// if (firstName === "Fahad"){
+//     console.log("Wellcome To my Website!")
+// }else {
+//     console.log("You are Not Fahad");
+// }
+
+
 
 
 
