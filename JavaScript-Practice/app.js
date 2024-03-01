@@ -193,3 +193,47 @@
 // var heading = document.querySelector("#head")
 // console.log(heading.innerHTML);
 // heading.innerHTML = "Change Through js"
+
+
+
+// var heading = document.querySelector('#head')
+// console.log(heading.innerHTML);
+// heading.innerHTML = "Change Through js"
+
+// function buttonClick(){
+//     if(#head ===> "")
+// }
+
+// var Physices = +prompt("Physics Marks");
+// var Chemistry = +prompt("Chemistry Marks");
+// var Biology = +prompt("Biology Marks");
+
+// var obtainMarks = (Physices + Chemistry + Biology);
+// var totalMarks = 300;
+
+// console.log('Obtain Marks ==>' + obtainMarks);
+// console.log('Total Marks ==>' + totalMarks);
+// console.log(obtainMarks/totalMarks*100)
+
+
+// IF/ELSE Statement 
+
+let userAge = +prompt("PLease Enter Your Age");
+
+if (userAge >= 18){
+    console.log("Congratulation You Can make Your CNIC");
+}else {
+    console.log("You are under age you are not make Your CNIC");
+}
+
+// let userData = +prompt("What is Your Persentage")
+
+// if (userData <= 40){
+//     console.log("You are FAIL");
+// }else if (userData <= 60){
+//     console.log("You are 'C' Grade");
+// }else if (userData <= 80){
+//     console.log("You are 'B' Grade");
+// }else if (userData <= 100){
+//     console.log("Congratulation You are A1 grade");
+// }
