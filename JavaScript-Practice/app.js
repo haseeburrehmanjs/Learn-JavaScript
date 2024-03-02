@@ -264,15 +264,64 @@
 // head.innerHTML = 'haseeb ur rehman'
 // console.log(head.innerHTML);
 
-var heading = document.querySelector(".head")
-var paragrafh = document.querySelector("#para")
+// var heading = document.querySelector(".head")
+// var paragrafh = document.querySelector("#para")
 
-function changeText() {
-    if (heading.innerHTML === "JavaScript Change" && paragrafh.innerHTml === "javaScipt para") {
-        heading.innerHTML === "Haseeb"
-        paragrafh.innerHTML === "ur Rehman"
-    } else {
-        heading.innerHTML === "JavaScript Change"
-        paragrafh.innerHTML === "javaScipt para"
-    }
+// function changeText() {
+//     if (heading.innerHTML === "JavaScript Change" && paragrafh.innerHTml === "javaScipt para") {
+//         heading.innerHTML === "Haseeb"
+//         paragrafh.innerHTML === "ur Rehman"
+//     } else {
+//         heading.innerHTML === "JavaScript Change"
+//         paragrafh.innerHTML === "javaScipt para"
+//     }
+// }
+
+
+// var Urdu = +prompt("Urdu Marks")
+// var English = +prompt("Physices Marks")
+// var math = +prompt("Math Marks")
+// var Science = +prompt("Science Marks")
+// var totalNumber = "400"
+
+// var obtainMarks = (Urdu + English + math + Science);
+
+// console.log(obtainMarks);
+// console.log(totalNumber);
+// console.log(obtainMarks/totalNumber*100);
+
+
+// function GreetUser(fname , lname , age){
+//     console.log("Hello " + fname + ' ' + lname + ' ' + age);
+// }
+
+// GreetUser("Haseeb" , "Ur Rhman" , "16")
+
+// function sum(num1 , num2){
+//     console.log(num1 + num2);
+// }
+
+// sum(10,10);
+
+var lname = "khan"
+
+function myIntro(){
+    var fname = "Haseeb"
+    console.log(fname + lname);
 }
+
+myIntro()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
