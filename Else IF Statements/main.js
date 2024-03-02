@@ -107,7 +107,7 @@
 // }
 
 
-// === IF ELSE STATEMENTS Q 10 ===
+// === IF ELSE STATEMENTS Q 11 ===
 
 
 // 11. Write a program that adds an else statement to the following
@@ -126,11 +126,44 @@
 // }
 
 
+// === IF ELSE STATEMENTS Q 11 ===
 
 
+// This if/else statement does not work. Try to fix it:
+//  var greeting;
+//  var hour = 13;
+//  if (hour < 18) {
+//  greeting = "Good day";
+//  else
+//  greeting = "Good evening";
+//  } 
 
 
+// var hour = +prompt("What is Time Now!")
 
+// if (hour >= 18){
+//     console.log("Good Morning");
+// }else {
+//     console.log("Good Evening");
+// }
+
+
+// === IF ELSE STATEMENTS Q 13 ===
+
+// 13. Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+
+
+var num1 = +prompt("Write First Number");
+var num2 = +prompt("Write Second Number");
+
+if (num1 > num2){
+    console.log("Num1 Is Large Number");
+}else if (num1 == num2 ){
+    console.log("Num1 and Num2 Is equal");
+}else {
+    console.log("Num2 is large number");
+}
 
 
 
