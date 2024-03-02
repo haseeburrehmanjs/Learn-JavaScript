@@ -154,23 +154,76 @@
 // display the larger. Also show if the two integers are equal.
 
 
-var num1 = +prompt("Write First Number");
-var num2 = +prompt("Write Second Number");
+// var num1 = +prompt("Write First Number");
+// var num2 = +prompt("Write Second Number");
 
-if (num1 > num2){
-    console.log("Num1 Is Large Number");
-}else if (num1 == num2 ){
-    console.log("Num1 and Num2 Is equal");
-}else {
-    console.log("Num2 is large number");
-}
-
-
+// if (num1 > num2){
+//     console.log("Num1 Is Large Number");
+// }else if (num1 == num2 ){
+//     console.log("Num1 and Num2 Is equal");
+// }else {
+//     console.log("Num2 is large number");
+// }
 
 
+// === IF ELSE STATEMENTS Q 14 ===
 
 
+// 14. Write a program that takes input a number from user & state
+// whether the number is positive, negative or zero
 
+
+// var num = +prompt("Write Number Here!");
+
+// if (num > 0){
+//     console.log("Number is Positive");
+// }else if (num < 0){
+//     console.log("Number Is Negative");
+// }else {reakfast
+//     console.log("Number is Zero");
+// }
+
+
+// === IF ELSE STATEMENTS Q 15 ===
+
+
+// 15. Ask the user what the current hour is. If the hour is between
+// 6 and 9 a.m., tell the user, "B is served." If the hour is
+// between 11 a.m. and 1 p.m., tell the user, "Time for lunch." If
+// the hour is between 5 and 8 p.m., tell the user, "It's dinner
+// time." For any other hours, tell the user, "Sorry, you'll have to
+// wait, or go get a snack." (Hint: Store the hour in 24 hours clock
+// format i.e. 14 for 2pm , 15 for 3pm)
+
+
+// var user = +prompt("What is time Date")
+
+// if (user >= 6 && 9 >= user){
+//     console.log("breakFast is Served");
+// }else if (user >= 11 && 1 <= user){
+//     console.log("Time for lunch");
+// }else {
+//     console.log("Sorry, you'll have to wait, or go get a snack");
+// }
+
+// ==== NOT COMPLETE ===
+
+
+// === IF ELSE STATEMENTS Q 16 ===
+
+
+// 16. Write a program that stores value in a variable & tell whether
+// the type of that variable is a "number", "string", "boolean" or
+// “undefined”
+
+
+var num1 = "haseeb";
+var num2 = 5;
+var num3 = true;
+
+console.log(typeof(num1));
+console.log(typeof(num2));
+console.log(typeof(num3));
 
 
 

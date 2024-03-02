@@ -250,10 +250,29 @@
 // matches the original password”. Show “Incorrect
 // password” otherwise.
 
-var yourPassword = prompt("Enter Your Password");
+// var yourPassword = prompt("Enter Your Password");
 
-if (yourPassword == "Haseeb"){
-    console.log("Correct! The password you entered");
-}else {
-    console.log("Incorrect password");
+// if (yourPassword == "Haseeb"){
+//     console.log("Correct! The password you entered");
+// }else {
+//     console.log("Incorrect password");
+// }
+
+
+// var head = document.querySelector('.head');
+// console.log(head.innerHTML);
+// head.innerHTML = 'haseeb ur rehman'
+// console.log(head.innerHTML);
+
+var heading = document.querySelector(".head")
+var paragrafh = document.querySelector("#para")
+
+function changeText() {
+    if (heading.innerHTML === "JavaScript Change" && paragrafh.innerHTml === "javaScipt para") {
+        heading.innerHTML === "Haseeb"
+        paragrafh.innerHTML === "ur Rehman"
+    } else {
+        heading.innerHTML === "JavaScript Change"
+        paragrafh.innerHTML === "javaScipt para"
+    }
 }
