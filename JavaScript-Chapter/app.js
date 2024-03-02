@@ -71,3 +71,31 @@
 
 // alert(visitorsName + '' + quantity + '' + productTilte);
 
+// ==== Chapter 04  Q 1 ====
+
+//1.Declare 3 variables in one statement.
+
+// a, b, c, = 10
+
+// 2.Declare 5 legal & 5 illegal variable names
+
+// === legal Name ===
+
+// var userName = "Haseeb Ur Rehman";
+// var my_alue = 50;
+// var myNumber = 8;
+// var $myCast = "Rajput Arain";
+// var data1 = 100;
+
+// === illegal Name ===
+
+// var 123 = '';
+// var @userName = "";
+// var username = "";
+
+// 3.Display this in your browser
+
+// document.write("Variable names can only contain,number, $ and, _. for Example : $my_firstName")
+// Document.write("Variables must begin with a $ or _,  or. For example $name, _name or name")
+// document.write("Variable names are case Sensitive")
+// document.write("Variable names should not be JS keywords")
