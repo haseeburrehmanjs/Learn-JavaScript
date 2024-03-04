@@ -420,12 +420,22 @@
 // }
 
 
+// var heading = document.querySelector(`.head`);
+
+// function change() {
+//     if (heading.innerHTML === "Haseeb Ur Rehman") {
+//         heading.innerHTML = `Kamran Ahmed`
+//     } else {
+//         heading.innerHTML = `Haseeb Ur Rehman`
+//     }
+// }
+
 var heading = document.querySelector(`.head`);
 
-function change() {
-    if (heading.innerHTML === "Haseeb Ur Rehman") {
-        heading.innerHTML = `Kamran Ahmed`
-    } else {
-        heading.innerHTML = `Haseeb Ur Rehman`
+function myintro(){
+    if (heading.innerHTML === "Haseeb Ur Rehman"){
+        heading.innerHTML = "Kamran Ahmed"
+    }else {
+        heading.innerHTML = "Haseeb Ur Rehman"
     }
 }
