@@ -368,23 +368,64 @@
 //     input.value = ""
 // }
 
-var input = document.querySelector(`.head`)
+// var input = document.querySelector(`.head`)
 
-function inputtype(){
-    console.log(input.value)
-    input.value = ""
+// function inputtype(){
+//     console.log(input.value)
+//     input.value = ""
+// }
+
+// var fname = `Haseeb`
+// var lanme = `Ur Rehman`
+// var age = 16
+
+// console.log(`my name is ${ fname} my last name ${lanme} my age is ${age}`);
+
+
+
+// var input = document.querySelector(`.input-box`)
+
+// function intro(){
+//     console.log(input.value);
+//     input.value = ""
+// }
+
+
+// var input = document.querySelector('input')
+
+// function myintro(){
+//     console.log(input.value);
+//     input.value = ""
+// }
+
+// var heading = document.querySelector('.head')
+
+// function myintro(){
+//     if(heading.innerHTML === "Hello Haseeb"){
+//         heading.innerHTML = "JavaScript"
+//     }else {
+//         heading.innerHTML = `Hello Haseeb`
+//     }
+// }
+
+
+// var heading = document.querySelector(`.head`)
+
+// function change(){
+//     if(heading.innerHTML === `Haseeb Ur Rehman`){
+//         heading.innerHTML = `Kamran Ahmed`
+//     }else {
+//         heading.innerHTML = `Haseeb Ur Rehman`
+//     }
+// }
+
+
+var heading = document.querySelector(`.head`);
+
+function change() {
+    if (heading.innerHTML === "Haseeb Ur Rehman") {
+        heading.innerHTML = `Kamran Ahmed`
+    } else {
+        heading.innerHTML = `Haseeb Ur Rehman`
+    }
 }
-
-var fname = `Haseeb`
-var lanme = `Ur Rehman`
-var age = 16
-
-console.log(`my name is ${ fname} my last name ${lanme} my age is ${age}`);
-
-
-
-
-
-
-
-
