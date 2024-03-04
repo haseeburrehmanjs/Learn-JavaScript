@@ -430,12 +430,22 @@
 //     }
 // }
 
-var heading = document.querySelector(`.head`);
+// var heading = document.querySelector(`.head`);
 
-function myintro(){
-    if (heading.innerHTML === "Haseeb Ur Rehman"){
-        heading.innerHTML = "Kamran Ahmed"
-    }else {
-        heading.innerHTML = "Haseeb Ur Rehman"
-    }
+// function myintro(){
+//     if (heading.innerHTML === "Haseeb Ur Rehman"){
+//         heading.innerHTML = "Kamran Ahmed"
+//     }else {
+//         heading.innerHTML = "Haseeb Ur Rehman"
+//     }
+// }
+
+var inputF = document.querySelector(`.inputone`)
+var inputL = document.querySelector(`.inputtwo`)
+var totalMarks = 200;
+
+function aditionMarks(){
+   console.log(inputF.value + inputL.value);
+   inputF = ""
+   inputL = ""
 }
