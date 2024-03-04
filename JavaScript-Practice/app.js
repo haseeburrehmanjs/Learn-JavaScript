@@ -303,20 +303,83 @@
 
 // sum(10,10);
 
-var lname = "khan"
+// var lname = "khan"
 
-function myIntro(){
-    var fname = "Haseeb"
-    console.log(fname + lname);
+// function myIntro(){
+//     var fname = "Haseeb"
+//     console.log(fname + lname);
+// }
+
+// myIntro()
+
+// Swal.fire("SweetAlert2 is working!");
+
+/* inputOptions can be an object or Promise */
+
+// Swal.fire({
+//     title: "Do you want to save the changes?",
+//     showDenyButton: true,
+//     showCancelButton: true,
+//     confirmButtonText: "Save",
+//     denyButtonText: `Don't save`
+//   }).then((result) => {
+//     /* Read more about isConfirmed, isDenied below */
+//     if (result.isConfirmed) {
+//       Swal.fire("Saved!", "", "success");
+//     } else if (result.isDenied) {
+//       Swal.fire("Changes are not saved", "", "info");
+//     }
+//   });
+
+// function myintro(){
+//   if ()
+// }
+
+// var head = document.querySelector(".head")
+// console.log(head.innerHTML = "Hell Js")
+
+// var heading = document.querySelector(".head")
+// console.log(heading.innerHTML = "Hello JavaScript");
+
+// var head = document.querySelector(".head")
+// console.log(head.innerHTML = "Hello JavaScript Chnage bY haseeb");
+
+// var heading = document.querySelector(".head")
+
+// function myintro(){
+//     console.log(heading.innerHTML)
+//     if(heading.innerHTML === "HASEEB"){
+//         heading.innerHTML = "JAVASCRIPT"
+//     }else {
+//         heading.innerHTML = "HASEEB"
+//     }
+// }
+
+// function myintro(){
+//     console.log(myintro.innerHTML === "Haseeb"){
+
+//     }
+// }
+
+// var input = document.querySelector(".input")
+
+// function inputtype(){
+//     console.log(input.value);
+//     input.value = ""
+// }
+
+var input = document.querySelector(`.head`)
+
+function inputtype(){
+    console.log(input.value)
+    input.value = ""
 }
 
-myIntro()
+var fname = `Haseeb`
+var lanme = `Ur Rehman`
+var age = 16
 
-
-
-
-
-
+console.log(`my name is ${ fname} my last name ${lanme} my age is ${age}`);
 
 
 
