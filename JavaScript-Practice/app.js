@@ -420,15 +420,15 @@
 // }
 
 
-// var heading = document.querySelector(`.head`);
+var heading = document.querySelector(`.head`);
 
-// function change() {
-//     if (heading.innerHTML === "Haseeb Ur Rehman") {
-//         heading.innerHTML = `Kamran Ahmed`
-//     } else {
-//         heading.innerHTML = `Haseeb Ur Rehman`
-//     }
-// }
+function change() {
+    if (heading.innerHTML === "Haseeb Ur Rehman") {
+        heading.innerHTML = `Kamran Ahmed`
+    } else {
+        heading.innerHTML = `Haseeb Ur Rehman`
+    }
+}
 
 // var heading = document.querySelector(`.head`);
 
@@ -440,12 +440,14 @@
 //     }
 // }
 
-var inputF = document.querySelector(`.inputone`)
-var inputL = document.querySelector(`.inputtwo`)
-var totalMarks = 200;
+// var inputF = document.querySelector(`.inputone`)
+// var inputL = document.querySelector(`.inputtwo`)
+// var totalMarks = 200;
 
-function aditionMarks(){
-   console.log(inputF.value + inputL.value);
-   inputF = ""
-   inputL = ""
-}
+// function aditionMarks(){
+//    console.log(inputF.value + inputL.value);
+//    inputF = ""
+//    inputL = ""
+// }
+
+
