@@ -420,15 +420,15 @@
 // }
 
 
-var heading = document.querySelector(`.head`);
+// var heading = document.querySelector(`.head`);
 
-function change() {
-    if (heading.innerHTML === "Haseeb Ur Rehman") {
-        heading.innerHTML = `Kamran Ahmed`
-    } else {
-        heading.innerHTML = `Haseeb Ur Rehman`
-    }
-}
+// function change() {
+//     if (heading.innerHTML === "Haseeb Ur Rehman") {
+//         heading.innerHTML = `Kamran Ahmed`
+//     } else {
+//         heading.innerHTML = `Haseeb Ur Rehman`
+//     }
+// }
 
 // var heading = document.querySelector(`.head`);
 
@@ -451,3 +451,43 @@ function change() {
 // }
 
 
+
+// let heading = document.querySelector(`.head`);
+// let paragrafh = document.querySelector(`.para`);
+
+// function myWork(){
+//     if (heading.innerHTML === "Hello Haseeb" && paragrafh.innerHTML === "Lorem ipsum dolor sit amet."){
+//         heading.innerHTML = `Kamran Ahmed`
+//         paragrafh.innerHTML = `Lorem Ipsum`
+//     }else {
+//         heading.innerHTML = `Hello Haseeb`
+//         paragrafh.innerHTML = `Lorem ipsum dolor sit amet.`
+//     }
+// }
+
+
+
+// function myInput(){
+//     console.log(input1 + input2);
+// }
+
+
+
+
+function sumNum(){
+    var totalNumber = 200;
+    console.log(`Here is Your Total ${totalNumber}`);
+    var obtainNum = Number(input1.value) + Number(input2.value)
+    console.log(`Here is Your ObtainMarks ${obtainNum}`);
+    var percentage = obtainNum/totalNumber*100
+    console.log(`Here is Your Percentage ${percentage}`);
+    input1.value = ''
+    input2.value = ''
+    if(percentage >= 1 && 30 >= percentage){
+        console.log("You need to Work Hard You Are 'FAIL'");
+    }else if (percentage >= 31 && 50 >= percentage){
+        console.log(`You Got 'B' Grade`);
+    }else if (percentage >= 51 && 100 >= percentage){
+        console.log(`Congratulation You Got 'A+' GRADE`);
+    }
+}
