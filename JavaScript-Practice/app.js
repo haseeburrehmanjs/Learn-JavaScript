@@ -474,20 +474,56 @@
 
 
 
-function sumNum(){
-    var totalNumber = 200;
-    console.log(`Here is Your Total ${totalNumber}`);
-    var obtainNum = Number(input1.value) + Number(input2.value)
-    console.log(`Here is Your ObtainMarks ${obtainNum}`);
-    var percentage = obtainNum/totalNumber*100
-    console.log(`Here is Your Percentage ${percentage}`);
-    input1.value = ''
-    input2.value = ''
-    if(percentage >= 1 && 30 >= percentage){
-        console.log("You need to Work Hard You Are 'FAIL'");
-    }else if (percentage >= 31 && 50 >= percentage){
-        console.log(`You Got 'B' Grade`);
-    }else if (percentage >= 51 && 100 >= percentage){
-        console.log(`Congratulation You Got 'A+' GRADE`);
-    }
+// function sumNum(){
+//     var totalNumber = 200;
+//     console.log(`Here is Your Total ${totalNumber}`);
+//     var obtainNum = Number(input1.value) + Number(input2.value)
+//     console.log(`Here is Your ObtainMarks ${obtainNum}`);
+//     var percentage = obtainNum/totalNumber*100
+//     console.log(`Here is Your Percentage ${percentage}`);
+//     input1.value = ''
+//     input2.value = ''
+// }
+
+// function myIntro(){
+//     let obtainMarks = Number(input1.value) + Number(input2.value) +Number(input3.value) + Number(input4.value)
+//     document.write(`Here Your Total Marks ${obtainMarks}`)
+//     let percentage = 
+// }
+
+// var head = document.querySelector('#head') 
+// var para = document.querySelector('#para')
+// head.innerHTML='change through java'
+// para.innerHTML='hello'
+// console.log(head.innerHTML)
+// console.log(para.innerHTML)
+
+// let head2 = document.querySelector(`#head`)
+// head2.innerHTML = "Hello Haseeb"
+
+// function myIntro(){
+//     let head2 = document.querySelector(`#head`)
+//     head2.innerHTML = "Hello Haseeb" 
+// }
+
+
+// let head = document.querySelector(`.toome`)
+
+// function change(){
+    // console.log(head.value);
+// }
+
+
+var chemistry =document.querySelector('#chem')
+var math =document.querySelector('#math')
+var english =document.querySelector('#eng')
+var urdu =document.querySelector('#urdeu')
+
+function click(){
+    console.log(chemistry)
+    console.log(chemistr)
+    console.log(chemistry)
+    console.log(chemistry)
+
 }
+
