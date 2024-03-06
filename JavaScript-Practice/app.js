@@ -510,20 +510,39 @@
 // let head = document.querySelector(`.toome`)
 
 // function change(){
-    // console.log(head.value);
+// console.log(head.value);
 // }
 
 
-var chemistry =document.querySelector('#chem')
-var math =document.querySelector('#math')
-var english =document.querySelector('#eng')
-var urdu =document.querySelector('#urdeu')
+// var chemistry =document.querySelector('#chem')
+// var math =document.querySelector('#math')
+// var english =document.querySelector('#eng')
+// var urdu =document.querySelector('#urdeu')
 
-function click(){
-    console.log(chemistry)
-    console.log(chemistr)
-    console.log(chemistry)
-    console.log(chemistry)
+// function click(){
+//     console.log(chemistry)
+//     console.log(chemistr)
+//     console.log(chemistry)
+//     console.log(chemistry)
+// }
 
+let urduMarks = document.querySelector(`#input1`)
+let englishMarks = document.querySelector(`#input2`)
+let mathMarks = document.querySelector(`#input3`)
+let comMarks = document.querySelector(`#input4`)
+
+function calculator() {
+    console.log(urduMarks.value);
+    console.log(englishMarks.value);
+    console.log(mathMarks.value);
+    console.log(comMarks.value);
+    let totalNumber = +urduMarks.value + +englishMarks.value + +mathMarks.value + +comMarks.value
+    console.log(totalNumber);
+    let totalValue = 400
+    let percentage = totalNumber/totalValue*100
+    console.log(percentage);
+    urduMarks.value = ''
+    englishMarks.value = ''
+    mathMarks.value = ''
+    comMarks.value = ''
 }
-
