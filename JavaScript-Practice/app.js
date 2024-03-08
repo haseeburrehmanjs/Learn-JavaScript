@@ -526,23 +526,40 @@
 //     console.log(chemistry)
 // }
 
-let urduMarks = document.querySelector(`#input1`)
-let englishMarks = document.querySelector(`#input2`)
-let mathMarks = document.querySelector(`#input3`)
-let comMarks = document.querySelector(`#input4`)
+// let urduMarks = document.querySelector(`#input1`)
+// let englishMarks = document.querySelector(`#input2`)
+// let mathMarks = document.querySelector(`#input3`)
+// let comMarks = document.querySelector(`#input4`)
 
-function calculator() {
-    console.log(urduMarks.value);
-    console.log(englishMarks.value);
-    console.log(mathMarks.value);
-    console.log(comMarks.value);
-    let totalNumber = +urduMarks.value + +englishMarks.value + +mathMarks.value + +comMarks.value
-    console.log(totalNumber);
-    let totalValue = 400
-    let percentage = totalNumber/totalValue*100
-    console.log(percentage);
-    urduMarks.value = ''
-    englishMarks.value = ''
-    mathMarks.value = ''
-    comMarks.value = ''
-}
+// function calculator() {
+//     console.log(urduMarks.value);
+//     console.log(englishMarks.value);
+//     console.log(mathMarks.value);
+//     console.log(comMarks.value);
+//     let totalNumber = +urduMarks.value + +englishMarks.value + +mathMarks.value + +comMarks.value
+//     console.log(totalNumber);
+//     let totalValue = 400
+//     let percentage = totalNumber/totalValue*100
+//     console.log(percentage);
+//     urduMarks.value = ''
+//     englishMarks.value = ''
+//     mathMarks.value = ''
+//     comMarks.value = ''
+// }
+
+// let array = ['Haseeb', 'Jawad', 'Khalid', 'Zohaib'];
+// array.push(`watermelon`) // Add krta ha End ma.
+// array.pop() // Last ma hata data ha.
+// array.unshift(`Asad bhai`) //Shoro ma Add kr data ha.
+// array.shift() // shoro ma hata data ha 
+// console.log(array);
+
+// let array2 = ['haseeb', 'jawad', 'zohaib bhai']
+
+
+
+
+let fruits = ['mango','banana', 'orange' ,'apple' , 'pista']
+fruits.splice(3 , 3 ,'lemon' )
+console.log(fruits)
+
