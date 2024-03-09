@@ -557,9 +557,10 @@
 // let array2 = ['haseeb', 'jawad', 'zohaib bhai']
 
 
+// Array methoud 
 
+let softwere = ['Vs code', 'PhotoShop', 'Antivirus', 'Figma']
 
-let fruits = ['mango','banana', 'orange' ,'apple' , 'pista']
-fruits.splice(3 , 3 ,'lemon' )
-console.log(fruits)
+softwere.pop('premiere')
+console.log(softwere);
 
