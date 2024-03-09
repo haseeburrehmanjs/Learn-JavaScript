@@ -559,12 +559,18 @@
 
 // Array methoud 
 
-let softwere = ['Vs code', 'PhotoShop', 'Antivirus', 'Figma']
-let textArray = softwere.join(' ')
-console.log(textArray);
+// let softwere = ['Vs code', 'PhotoShop', 'Antivirus', 'Figma']
+// let textArray = softwere.join(' ')
+// console.log(textArray);
 
-let text = `My name is Haseeb Ur Rehman`
+// let text = `My name is Haseeb Ur Rehman`
 
-let wordarray = text.split(' ')
-console.log(wordarray);
+// let wordarray = text.split(' ')
+// console.log(wordarray);
 
+
+// let softwere = `My name is Haseeb Ur Rehman`
+
+// let wordArray = softwere.split(' ')
+// wordArray.pop(' ')
+// console.log(wordArray);
