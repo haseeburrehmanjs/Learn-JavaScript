@@ -560,7 +560,11 @@
 // Array methoud 
 
 let softwere = ['Vs code', 'PhotoShop', 'Antivirus', 'Figma']
+let textArray = softwere.join(' ')
+console.log(textArray);
 
-softwere.pop('premiere')
-console.log(softwere);
+let text = `My name is Haseeb Ur Rehman`
+
+let wordarray = text.split(' ')
+console.log(wordarray);
 
