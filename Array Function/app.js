@@ -5,7 +5,7 @@
 //unshift {start ma value add krna ka liya.}
 //shift {start ma value remove krna ka liya}
 //splice {Bich ma sa value hata na ka liya}
-//slice
+//slice 
 //split
 //join
 //concat
