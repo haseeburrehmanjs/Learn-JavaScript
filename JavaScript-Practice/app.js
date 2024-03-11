@@ -574,3 +574,50 @@
 // let wordArray = softwere.split(' ')
 // wordArray.pop(' ')
 // console.log(wordArray);
+
+
+
+//push {last ma value add krna ka liya}
+//pop {last ma value hata na ka liya}
+//unshift {start ma value add krna ka liya}
+//shift {start ma value hata na ka liya}
+//splice {bitch sa valua hata na or laga na ka liya }
+//split paragraf ko array ma krana ka liya
+//join {Array ko paragraf ma krna ka liya}
+//concat
+//sort
+//reverse
+//indexof
+//slice
+
+// let softwere = ['Illustartor', 'Photoshop', 'figma', 'indesgin']
+
+// let arraytwo = ['jawad', 'haseeb']
+// softwere.push('Indesign')
+// softwere.pop(' ')
+
+// softwere.shift('')
+// softwere.shift('')
+
+// softwere.splice(1 , 1 , 'capcut')
+
+// text = softwere.split(" ")
+
+// console.log(text);
+
+// arraythree = softwere.concat(arraytwo)
+
+// console.log(softwere);
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,16 +5,17 @@
 //unshift {start ma value add krna ka liya.}
 //shift {start ma value remove krna ka liya}
 //splice {Bich ma sa value hata na ka liya}
-//slice 
-//split
-//join
-//concat
+//split {array bana ka liya}
+//join {pragraf krna ka liya}
+//concat {dono ko array ko jorna ka liya}
+//slice {bich sa kisi word ko hatana ya lagana}
 //sort
 //reverse
 //indexof
 
 
-let softwere = ['Illustratal', 'PhotoShop', 'Figma', 'Indesign']
+
+// let softwere = ['Photoshop', 'figma', 'indeign']
 // softwere.push('premiere') {last ma value add krna ka liya}
 // softwere.pop('')  {last ma value reomve krna ka liya}
 // softwere.unshift('Vs code') {start ma value add krna ka liya}
@@ -22,9 +23,57 @@ let softwere = ['Illustratal', 'PhotoShop', 'Figma', 'Indesign']
 // softwere.splice(1 , 1) {bich ma sa value hata or laga na ka liya}
 // softwere.length=0 {Array ki length 0 krna ka liya}
 // softwere.splice(1 , 2)
-console.log(softwere);
+// array = softwere.split(" ")
+// array = softwere.join('')
+// console.log(array);
 
 // .length = Array ki length Check krna ka liya 
 // console.log(softwere.length);
 
 // console.log(softwere[1]);
+
+
+// const shop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
+// const input = document.querySelector('#input');
+// const h2 = document.querySelector('h2');
+// function getFruits() {
+//     console.log(input.value)
+//     if (shop.includes(input.value)) {
+//         console.log('fruit available haa..')
+//         h2.innerHTML = `${input.value} is available`
+//     } else {
+//         console.log('fruit available nahi ha');
+//         h2.innerHTML = `${input.value} is not available`
+//     }
+//     input.value = ''
+// }
+
+
+
+let shop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
+
+// let input = document.querySelector('input')
+// let heading = document.querySelector('h1')
+
+// function getFruits(){
+//     console.log(input.value);
+//     if (shop.includes(input.value)){
+//         // console.log('input.value');
+//         heading.innerHTML = `${input.value} Is Avalible`
+//     }else {
+//         heading.innerHTML = `${input.value} Is not Availble`
+//     }
+//     input.value = ''
+// }
+
+
+
+let input = document.querySelector('input')
+let head = document.querySelector('h1')
+
+function getFruits(){
+    console.log(input.value);
+    if(shop.includes(input.value)){
+        head.innerHTML = 
+    }
+}
