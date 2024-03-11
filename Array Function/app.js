@@ -50,7 +50,7 @@
 
 
 
-let shop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
+// let shop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
 
 // let input = document.querySelector('input')
 // let heading = document.querySelector('h1')
@@ -68,12 +68,75 @@ let shop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
 
 
 
-let input = document.querySelector('input')
-let head = document.querySelector('h1')
+// let input = document.querySelector('input')
+// let head = document.querySelector('h1')
 
-function getFruits(){
+// function getFruits(){
+//     console.log(input.value);
+//     if(shop.includes(input.value)){
+//         head.innerHTML = `${input.value} Is Available`
+//     }else {
+//         head.innerHTML = `${input.value} its not Available`
+//     }
+//     input.value = ''
+// }
+
+
+
+// // myShop.length()
+// console.log(myShop.length);
+
+let myShop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
+
+let input = document.querySelector('input');
+let  head = document.querySelector('h1');
+
+function myFunk(){
     console.log(input.value);
-    if(shop.includes(input.value)){
-        head.innerHTML = 
+    if (myShop.includes(input.value)){
+        head.innerHTML = `${input.value} Its Availble`
+    }else {
+        head.innerHTML =` ${input.value} its not Available`
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
