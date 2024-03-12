@@ -609,6 +609,25 @@
 
 // console.log(softwere);
 
+// let softwere = ['Illustartor', 'Photoshop', 'figma', 'indesgin']
+
+// let input = document.querySelector('input');
+// let head = document.querySelector('h1')
+
+// function MySoft(){
+//     console.log(input.value);
+//     if(softwere.includes(input.value)){
+//         console.log(input.value);
+//         head.innerHTML = `${input.value} its Available`
+//     }else {
+//         console.log('fruit available nahi ha');
+//         head.innerHTML = `${input.value} is not available`
+//     }
+//     input.value = ''
+// }
+
+
+
 
 
 

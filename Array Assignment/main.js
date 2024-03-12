@@ -37,5 +37,9 @@
 // like:
 
 let qualifications = ['EG', 'SSC', 'HSC', 'BSC', 'BS', 'BCOM',] 
-console.log(qualifications);
+
+let li = document.querySelector('li')
+
+
+
 
