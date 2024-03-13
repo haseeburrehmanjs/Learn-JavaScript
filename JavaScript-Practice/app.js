@@ -626,13 +626,35 @@
 //     input.value = ''
 // }
 
+// let softwere = ['Illustartor', 'Photoshop', 'figma', 'indesgin'];
+
+// let input = document.querySelector('#input');
+// let head = document.querySelector('h1');
+
+// function mySoft(){
+//     console.log(input.value);
+//     if(softwere.includes(input.value)){
+//         console.log(input.value);
+//         head.innerHTML = `${input.value} its Available`
+//     }else {
+//         console.log('fruit available nahi ha');
+//         head.innerHTML = `${input.value} is not available`
+//     }
+//     input.value = ''
+// }
 
 
+let Urdu = document.querySelector('input1')
+let English = document.querySelector('input2')
+let Math = document.querySelector('input3')
+let Computer = document.querySelector('input4')
 
-
-
-
-
+function calculator(){
+    console.log(Urdu.value);
+    console.log(English.value);
+    console.log(Math.value);
+    console.log(Computer.value);
+}
 
 
 

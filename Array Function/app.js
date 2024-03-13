@@ -86,20 +86,34 @@
 // // myShop.length()
 // console.log(myShop.length);
 
+// let myShop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
+
+// let input = document.querySelector('input');
+// let  head = document.querySelector('h1');
+
+// function myFunk(){
+//     console.log(input.value);
+//     if (myShop.includes(input.value)){
+//         head.innerHTML = `${input.value} Its Availble`
+//     }else {
+//         head.innerHTML =` ${input.value} its not Available`
+//     }
+// }
+
+
 let myShop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
 
 let input = document.querySelector('input');
-let  head = document.querySelector('h1');
+let head = document.querySelector('h1');
 
 function myFunk(){
     console.log(input.value);
-    if (myShop.includes(input.value)){
-        head.innerHTML = `${input.value} Its Availble`
+    if(myShop.includes('input.value')){
+        head.innerHTML = `${input.value} Its Available`
     }else {
-        head.innerHTML =` ${input.value} its not Available`
+        head.innerHTML = `${input.value} its Not Available`
     }
 }
-
 
 
 
