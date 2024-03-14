@@ -644,16 +644,33 @@
 // }
 
 
-let Urdu = document.querySelector('input1')
-let English = document.querySelector('input2')
-let Math = document.querySelector('input3')
-let Computer = document.querySelector('input4')
+// let Urdu = document.querySelector('input1')
+// let English = document.querySelector('input2')
+// let Math = document.querySelector('input3')
+// let Computer = document.querySelector('input4')
 
-function calculator(){
-    console.log(Urdu.value);
-    console.log(English.value);
-    console.log(Math.value);
-    console.log(Computer.value);
+// function calculator(){
+//     console.log(Urdu.value);
+//     console.log(English.value);
+//     console.log(Math.value);
+//     console.log(Computer.value);
+// }
+
+
+// forloop
+// whileloop
+// dowhileloop
+
+let usertable = +prompt('Enter Your table number')
+let times = +prompt('How mant times do you want?')
+let ul = document.querySelector('ul')
+
+
+for(let usertable = times; usertable <= times; usertable++){
+    // console.log(usertable);
+    for(let j = 1; j <= times; j++){
+        ul.innerHTML += `<li>${usertable} x ${j} = ${usertable*j}</li>`
+    }
 }
 
 
