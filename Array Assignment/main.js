@@ -87,11 +87,53 @@
 // 14. Write a program to sort the below mentioned array:
 // var fruits = [“strawberry”, “apple”, “orange”, “banana”];
 
-let fruits = ["stawbery", "Apple", "Orange", "Banana"];
+// let fruits = ["stawbery", "Apple", "Orange", "Banana"];
 
-console.log(`Fruits list ${fruits}`);
-console.log(`Order list ${fruits.sort()}`);
+// console.log(`Fruits list ${fruits}`);
+// console.log(`Order list ${fruits.sort()}`);
 
+// 15. Write a program to initialize an array with city names. Copy
+// 3 array elements from cities array to selectedCities array. 
 
+// let cities = ['Karcahi', 'Lahore', 'Islamabad', 'peshawer', 'Quota']
 
+// console.log(`Cities list ${cities}`);
+// console.log(`Selected Cities ${cities[1]},${cities[4]}`);
 
+// 16. Write a program to create a single string from the below
+// mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+
+// let paragraf = ['this', 'is', 'my', 'cat']
+// let text = paragraf.join(' ');
+
+// console.log(`Array: ${paragraf}`);
+// console.log(`String: ${text}`);
+
+// 17. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they were
+// stored. (FIFO-First In First Out)
+
+// let compPart = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+// console.log(`Out:
+// ${compPart[0]}`);
+// console.log(`Out:
+// ${compPart[1]}`);
+// console.log(`Out:
+// ${compPart[2]}`);
+// console.log(`Out:
+// ${compPart[3]}`);
+
+// 18. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last In-First
+// Out)
+
+let Devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+console.log(Devices.reverse());
+console.log(`Out: ${Devices[0]}`);
+console.log(`Out: ${Devices[1]}`);
+console.log(`Out: ${Devices[2]}`);
+console.log(`Out: ${Devices[3]}`);
