@@ -130,10 +130,26 @@
 // that you can access the values in reverse order. (Last In-First
 // Out)
 
-let Devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// let Devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
 
-console.log(Devices.reverse());
-console.log(`Out: ${Devices[0]}`);
-console.log(`Out: ${Devices[1]}`);
-console.log(`Out: ${Devices[2]}`);
-console.log(`Out: ${Devices[3]}`);
+// console.log(Devices.reverse());
+// console.log(`Out: ${Devices[0]}`);
+// console.log(`Out: ${Devices[1]}`);
+// console.log(`Out: ${Devices[2]}`);
+// console.log(`Out: ${Devices[3]}`);
+
+// 20. Declare and initialize an empty multidimensional array.
+// (Array of arrays)
+
+// let matrix = [[],[]]
+// console.log(matrix);
+
+// 21. Declare and initialize a multidimensional array representing
+// the following matrix:
+
+// let matrix = [
+//     [2, 8, 9]
+//     [3, 6, 9]
+// ];
+
+// console.log(matrix);
