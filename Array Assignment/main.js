@@ -59,20 +59,38 @@
 
 // let favorite_cars = ["Tesla Model S", "Porsche 911", "Lamborghini Aventador", "BMW M5"]
 
-// console.log(`This First Index ${favorite_cars[0]}`);
-// console.log(`This First Index ${favorite_cars[1]}`);
-// console.log(`This First Index ${favorite_cars[2]}`);
-// console.log(`This First Index ${favorite_cars[4]}`);
-// console.log(`This First Index ${favorite_cars[5]}`);
+// console.log(`First index of the array: ${favorite_cars.indexOf('Tesla Model S')}`);
+// console.log(`Car at first index of the array: ${favorite_cars[0]}`);
+// console.log(`Last index of the array ${favorite_cars.indexOf("BMW M5")}`);
+// console.log(`Last index of the array: ${favorite_cars[3]}`)
 
 // 11. Write a program to store 3 student names in an array. Take
 // another array to store score of these three students. Assume
 // that total marks are 500 for each student, display the scores &
 // percentages of students like:
 
-let studentName = ['Haseeb Marks is 320. Percentage is 78%', 'Haseeb Marks is 320. Percentage is 78%','Haseeb Marks is 320. Percentage is 78%']
+// let totalScore = 500;
+// let studenName = ['haseeb', 'javad', 'ahmed'];
+// let obtainScore = [480, 320, 280];
+// let percentages = [96, 46, 78]
 
-console.log(studentName);
+// console.log(`Score of ${studenName[0]} is ${obtainScore[0]} Percentage ${percentages[0]} %`);
+// console.log(`Score of ${studenName[1]} is ${obtainScore[1]} Percentage ${percentages[1]} %`);
+// console.log(`Score of ${studenName[2]} is ${obtainScore[2]} Percentage ${percentages[2]} %`);
+
+// 13. Write a program to store student scores in an array & sort
+// the array in ascending order using Array’s sort method. 
+
+// let studentScore = ["320", "230", "480", "120"];
+// console.log(studentScore.sort());
+
+// 14. Write a program to sort the below mentioned array:
+// var fruits = [“strawberry”, “apple”, “orange”, “banana”];
+
+let fruits = ["stawbery", "Apple", "Orange", "Banana"];
+
+console.log(`Fruits list ${fruits}`);
+console.log(`Order list ${fruits.sort()}`);
 
 
 
