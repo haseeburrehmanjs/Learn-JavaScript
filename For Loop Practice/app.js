@@ -74,4 +74,46 @@ let array = ['apple', 'banana', 'grapes', 'mashmelo'];
 
 
 
+// let userTable = +prompt('Enter Table number')
+// let times = +prompt('How many times do you want?')
+
+// for (let userTable = times; userTable <= times; userTable++) {
+//     console.log(userTable);
+//     for (let j = 1; j <= times; j++){
+//         console.log(`${userTable} x ${j} = ${userTable*j}`);
+//     }
+// }
+
+// let userTable = +prompt('Enter Table number')
+// let times = +prompt('How many times do you want?')
+// let ul = document.querySelector('ul')
+
+// for (let userTable = times; userTable <= times; userTable++){
+//     console.log(userTable);
+//     for(let j = 1; j <= times; j++){
+//         ul.innerHTML += `<li>${userTable} x ${j} = ${userTable*j}</li>`
+//     }
+// }
+
+
+let userTable = +prompt('Enter Tabale Number');
+let times = +prompt('How many times do you want?');
+let ul = document.querySelector('ul')
+
+// for (let userTable = times; userTable <= times; userTable++){
+//     console.log(userTable);
+//     for(let j = 1; j <= times; j++)
+//     ul.innerHTML += `<li>${userTable} x ${j} = ${userTable*userTable}</li>`
+// }
+
+for(let userTable = times; userTable <= times; userTable++){
+    console.log(`Table Of ${userTable}`);
+    for(let j = 1; j <= times; j++)
+    ul.innerHTML += `<li>${userTable} x ${j} = ${userTable*j}</li>`
+}
+
+
+
+
+
 
