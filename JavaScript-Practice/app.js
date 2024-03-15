@@ -666,10 +666,10 @@ let times = +prompt('How mant times do you want?')
 let ul = document.querySelector('ul')
 
 
-for(let usertable = times; usertable <= times; usertable++){
-    // console.log(usertable);
-    for(let j = 1; j <= times; j++){
-        ul.innerHTML += `<li>${usertable} x ${j} = ${usertable*j}</li>`
+for(let usertable = 1; usertable <= times; usertable++){
+    console.log(usertable);
+    for(let j = times; j <= times; j++){
+        ul.innerHTML += `<li>${usertable}x${j}=${usertable*j}</li>`
     }
 }
 

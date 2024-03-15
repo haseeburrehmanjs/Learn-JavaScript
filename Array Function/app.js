@@ -101,23 +101,38 @@
 // }
 
 
-let myShop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
+// let myShop = ['Apple', 'Banana', 'Orange', 'Mango', 'Grape', 'Strawberry'];
 
-let input = document.querySelector('input');
-let head = document.querySelector('h1');
+// let input = document.querySelector('input');
+// let head = document.querySelector('h1');
 
-function myFunk(){
-    console.log(input.value);
-    if(myShop.includes('input.value')){
-        head.innerHTML = `${input.value} Its Available`
-    }else {
-        head.innerHTML = `${input.value} its Not Available`
-    }
-}
-
-
+// function myFunk(){
+//     console.log(input.value);
+//     if(myShop.includes('input.value')){
+//         head.innerHTML = `${input.value} Its Available`
+//     }else {
+//         head.innerHTML = `${input.value} its Not Available`
+//     }
+// }
 
 
+// let fruits = ['Apple','Banana','Naspati','Badam','Akhrot'];
+// let ul = document.querySelector('ul')
+
+// for (let i = 0; i <= 5; i++){
+//     ul.innerHTML += `<li>${fruits[i]}</li>`
+// }
+
+// let fruits = ['Apple','Banana','Naspati','Badam','Akhrot'];
+
+// let Subject = []
+// let input = document.querySelector('input')
+
+// function myIntro(){
+//     Subject = input.value
+//     console.log(Subject);
+//     input.value = ''
+// }
 
 
 
