@@ -135,6 +135,20 @@
 // }
 
 
+let softwere = ['Illustrator', 'PhotoShop',];
+let softwere1 = ['Indesign', 'Figma']
+
+// let userName = 'Haseeb Javad Asadbhai Ahmed'
+// softwere.unshift('Premiere')
+// softwere.shift('Premiere')
+// softwere.shift('Premiere')
+// softwere.splice(1,2)
+// let position = softwere.indexOf('PhotoShop')
+// let joinArray = softwere.join(' ')
+// let newArray = softwere.concat(softwere1)
+
+console.log(newArray);
+
 
 
 
