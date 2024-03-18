@@ -661,19 +661,25 @@
 // whileloop
 // dowhileloop
 
-let usertable = +prompt('Enter Your table number')
-let times = +prompt('How mant times do you want?')
-let ul = document.querySelector('ul')
+// let usertable = +prompt('Enter Your table number')
+// let times = +prompt('How mant times do you want?')
+// let ul = document.querySelector('ul')
 
 
-for(let usertable = 1; usertable <= times; usertable++){
-    console.log(usertable);
-    for(let j = times; j <= times; j++){
-        ul.innerHTML += `<li>${usertable}x${j}=${usertable*j}</li>`
-    }
+// for(let usertable = 1; usertable <= times; usertable++){
+//     console.log(usertable);
+//     for(let j = times; j <= times; j++){
+//         ul.innerHTML += `<li>${usertable}x${j}=${usertable*j}</li>`
+//     }
+// }
+
+
+let userNumber = +prompt('Write Your Number?')
+console.log(userNumber);
+
+if (userNumber / 3 === 0){
+    console.log("This number is divisble by 3");
 }
-
-
 
 
 
