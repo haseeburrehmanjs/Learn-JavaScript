@@ -37,17 +37,70 @@
 // let ComNumber = prompt('Enter Your Computer Number?')
 // let totalNumber = 400;
 
+// const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi', 'strawberry'];
+
+// let ol = document.querySelector('ol')
+
+// function myfun(){
+//     ol.innerHTML = ' '
+//     for (let i = 0; i <= fruits.length; i++){
+//         ol.innerHTML += `<li>${fruits[i]}</li>`
+//     }
+// }
+
+
 const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi', 'strawberry'];
 
 let ol = document.querySelector('ol')
 
-function myfun(){
-    ol.innerHTML = ' '
-    for (let i = 0; i <= fruits.length; i++){
-        ol.innerHTML += `<li>${fruits[i]}</li>`
+// function myfun(){
+//     ol.innerHTML = ''
+//     let i = 0;
+//     while(i < fruits.length){
+//         ol.innerHTML += `<li>${fruits[i]}</li>` 
+//         i++
+//     }
+// }
+
+
+// FOR LOOP
+
+// for (let i = 1; i <= 10; i++){
+//     console.log(i);
+// }
+
+// WHILE LOOP
+
+// function myfun(){
+//     ol.innerHTML = ' '
+//     let i = 0;
+//     while(i < fruits.length){
+//         ol.innerHTML += `<li>${fruits[i]}</li>`
+//         i++
+//     }
+// }
+
+// DO WHILE LOOP
+
+// let i = 1;
+// do{
+//     console.log('do while loop ==>',i )
+//     i++
+// }while (i <= 10){
+
+// }
+
+let input = document.querySelector('input')
+let head = document.querySelector('Head0ne')
+
+function addTask(){
+    input.value = ''
+    if (input.value === ''){
+        alert('Enter Your task')
+    }else {
+        head.innerHTML = input.value
     }
 }
-
 
 
 
