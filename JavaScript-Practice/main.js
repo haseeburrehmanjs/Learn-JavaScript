@@ -92,15 +92,17 @@ let ol = document.querySelector('ol')
 
 let input = document.querySelector('input')
 let head = document.querySelector('h2')
-
-function addTask(){
-    input.value = ''
-    if (input.value = ''){
+let ul = document.querySelector('ul')
+function addTask() {
+    input.value = ""
+    if (input.value === '') {
         alert('Enter Your Task!')
     }else {
-        head.innerHTML = input.value
+        ul.innerHTML += <li>input.value</li>
     }
 }
+
+
 
 
 
