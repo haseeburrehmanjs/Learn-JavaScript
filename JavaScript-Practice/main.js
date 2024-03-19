@@ -49,9 +49,9 @@
 // }
 
 
-const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi', 'strawberry'];
+// const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi', 'strawberry'];
 
-let ol = document.querySelector('ol')
+// let ol = document.querySelector('ol')
 
 // function myfun(){
 //     ol.innerHTML = ''
@@ -91,15 +91,19 @@ let ol = document.querySelector('ol')
 // }
 
 let input = document.querySelector('input')
-let head = document.querySelector('h2')
 let ul = document.querySelector('ul')
-function addTask() {
-    input.value = ""
-    if (input.value === '') {
-        alert('Enter Your Task!')
+
+
+function addTask(){
+    if (input.value === ""){
+        alert('Enter YOur Task')
     }else {
-        ul.innerHTML += <li>input.value</li>
+        let myTask = [];
+        myTask = input.value
+        console.log(myTask);
+        ul.innerHTML += `<li>${myTask}</li>`
     }
+    input.value = ''
 }
 
 
