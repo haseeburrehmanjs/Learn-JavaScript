@@ -29,11 +29,21 @@
 // A = [“Nokia”, “Samsung”, “Apple”, “Sony”, “Huawei”]
 // Write each element on new line with the help of for loop
 
-let MobileName = ['Nokia', 'Oppo', 'Samsung', 'Tecno']
-let ul = document.querySelector('ul')
+// let MobileName = ['Nokia', 'Oppo', 'Samsung', 'Tecno']
+// let ul = document.querySelector('ul')
 
-for (let i = 0; i < MobileName.length; i++){
-    ul.innerHTML += `<li>${MobileName[i]}</li>`
+// for (let i = 0; i < MobileName.length; i++){
+//     ul.innerHTML += `<li>${MobileName[i]}</li>`
+// }
+
+// 5.Write a program to print items of the following array using for
+// loop:
+
+fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+
+let ul = document.querySelector('#orderlist');
+let para = document.querySelector('#orderlist')
+
+for (let i = 0; i < fruits.length; i++) {
+    ul.innerHTML += `<li>Element at index ${i} ${fruits[i]}</li>`
 }
-
-
