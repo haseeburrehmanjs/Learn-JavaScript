@@ -73,3 +73,27 @@
 // c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
 // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+
+
+let h1 = document.querySelector('h1')
+let h2 = document.querySelector('h2')
+let h3 = document.querySelector('h3')
+let h4 = document.querySelector('h4')
+let h5 = document.querySelector('h5')
+
+// == conting ==
+
+// console.log(Conting);
+for (let i = 1; i <= 10; i++) {
+    h1.innerHTML += `${i},`
+}
+
+// console.log(Reverseconting);
+for(let i = 10; i >= 1; i--){
+    h2.innerHTML += `${i},`
+}
+
+// console.log(Even);
+for(let i = 2; i <= 20; i += 2){
+    h3.innerHTML += `${i},`
+}
