@@ -97,3 +97,13 @@ for(let i = 10; i >= 1; i--){
 for(let i = 2; i <= 20; i += 2){
     h3.innerHTML += `${i},`
 }
+
+// console.log(Odd);
+for (let i = 3; i <= 20; i += 3){
+    h4.innerHTML += `${i},`
+}
+
+// console.log(Series);
+for(let i = 2; i <= 20; i += 2){
+    h5.innerHTML += `${i + 'k,'}` 
+}
