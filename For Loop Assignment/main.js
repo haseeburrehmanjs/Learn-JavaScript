@@ -218,3 +218,26 @@
 //         console.log(`${i} is Odd`);
 //     }
 // }
+
+// 18. Write a program to calculate the product of the odd integers
+// from 1 to 7.
+
+// let product = 1;
+
+// for (let i = 1; i <= 7; i++) {
+//     if (i % 2 !== 0) {
+//         product *= i;
+//     }
+// }
+// console.log("Product of odd integers from 1 to 7:", product);
+
+// Write a program to create the following patterns in your
+// browser. Take number of lines as an input.
+
+// let userInput = 5;
+// let star = '*'
+// let h1 = document.querySelector('h1')
+
+// for(let i = 1; i <= userInput; i++){
+//     h1.innerHTML += `${star} `
+// }
