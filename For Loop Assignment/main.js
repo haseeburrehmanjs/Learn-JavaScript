@@ -133,10 +133,6 @@
 // array.
 // A = [24, 53, 78, 91, 12]
 
-// let largestNum = [24, 53, 78, 91, 12];
-// console.log(largestNum.sort(''));
-
-// not complete
 
 // 12. Write a program to print multiples of 5 ranging 1 to 100
 
@@ -173,7 +169,7 @@
 // E.g. if user gives 3 as input value print 12, 45, 3
 // if user gives 34 as input value print 12, 45, 3, 22, 34
 
-// let scores = [12, 45, 3, 22, 34, 50]; 
+// let scores = [12, 45, 3, 22, 34, 50];
 // let pro = +prompt('Enter your number')
 
 // for(let i = 0; i < scores.length; i++){
@@ -203,10 +199,22 @@
 // num which is input by user. Value should be decreasing by 0.5
 // each time, as long as x Value remains positive.
 
-let h1 = document.querySelector('h1')
-let userValue = +prompt('Enter Your Number')
+// let h1 = document.querySelector('h1')
+// let num = +prompt('Enter Your Number')
 
-for (let i = 0; i <= userValue; i++) {
-    console.log(userValue);
-    h1.innerHTML += `${userValue},`
-}
+// for (; num > 0; num -= 0.5){
+//     h1.innerHTML += `${num},`
+// }
+
+// 17. The even/odd reporter
+// Write a for loop that will iterate from 0 to 20. For each
+// iteration, it will check if the current number is even or odd, and
+// report that to the screen (e.g. "2 is even").
+
+// for(let i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log(`${i} is Even`);
+//     }else{
+//         console.log(`${i} is Odd`);
+//     }
+// }
