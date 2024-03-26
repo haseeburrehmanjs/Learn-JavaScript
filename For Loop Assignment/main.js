@@ -162,6 +162,51 @@
 //     </tr>
 //     <td>${students[i]}</td>
 //     <td>${scores[i]}</td>
-    
+
 //     </table>`
 // }
+
+// 14. Write a program that prints number from start of the array
+// to desired stop value. Given array:
+// var scores = [12, 45, 3, 22, 34, 50];
+// (Hint: take stop value from user)
+// E.g. if user gives 3 as input value print 12, 45, 3
+// if user gives 34 as input value print 12, 45, 3, 22, 34
+
+// let scores = [12, 45, 3, 22, 34, 50]; 
+// let pro = +prompt('Enter your number')
+
+// for(let i = 0; i < scores.length; i++){
+//     if (pro === scores){
+//         console.log(scores);
+//     }
+// }
+
+// not complete
+
+// 15. You have an array
+// A = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+// Write each element on new line with the help of nested for
+// loops.
+
+// let ul = document.querySelector('ul')
+// let nested = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+
+// for (let i = 0; i < nested.length; i++){
+//     console.log(nested[i]);
+//     ul.innerHTML += `<li>
+//     ${nested[i]}
+//     </li>`
+// }
+
+// 16. Write a program to repeatedly print the value of the variable
+// num which is input by user. Value should be decreasing by 0.5
+// each time, as long as x Value remains positive.
+
+let h1 = document.querySelector('h1')
+let userValue = +prompt('Enter Your Number')
+
+for (let i = 0; i <= userValue; i++) {
+    console.log(userValue);
+    h1.innerHTML += `${userValue},`
+}
