@@ -7,7 +7,7 @@
 // for(let i = 1; i <= 5; i++){
 //     ul.innerHTML += `<li>${message} ${i}</li>`
 // }
-    
+
 
 // 2. Write a program to print numeric counting from 1 to 10.
 
@@ -153,14 +153,15 @@
 // var students = ["Ali", "Sami", "Taha", "Inam"];
 // var scores = [58, 73, 89, 90];
 
-
-// for(let i = 0; i < students.length; i++){
+// for (let i = 0; i < students.length; i++) {
 //     table.innerHTML += `<table>
 //     <tr>
 //     <th>Student</th>
-//     <th>Scores</th>
+//     <th>Score</th>
+
 //     </tr>
 //     <td>${students[i]}</td>
 //     <td>${scores[i]}</td>
+    
 //     </table>`
 // }
