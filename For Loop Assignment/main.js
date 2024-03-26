@@ -234,10 +234,15 @@
 // Write a program to create the following patterns in your
 // browser. Take number of lines as an input.
 
-// let userInput = 5;
-// let star = '*'
-// let h1 = document.querySelector('h1')
+let userInput = +prompt('Enter Your Number!');
+let star = ''
+let h1 = document.querySelector('h1')
 
-// for(let i = 1; i <= userInput; i++){
-//     h1.innerHTML += `${star} `
-// }
+for (i = userInput; i >= 1; i--) {
+    let star = ''
+    for (j = 1; j <= i; j++) {
+        star += "*"
+    }
+    console.log(star);
+}
+
