@@ -1,4 +1,4 @@
-// 1. Write a program to display the message “Hello World” 5 times
+// 1. Write a program to display the message "Hello World" 5 times
 // in your browser using for loop.
 
 // let message = "Hello World"
@@ -29,7 +29,7 @@
 // }
 
 // 4. You have an array
-// A = [“Nokia”, “Samsung”, “Apple”, “Sony”, “Huawei”]
+// A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"]
 // Write each element on new line with the help of for loop
 
 // let MobileName = ['Nokia', 'Oppo', 'Samsung', 'Tecno']
@@ -75,35 +75,92 @@
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 
 
-let h1 = document.querySelector('h1')
-let h2 = document.querySelector('h2')
-let h3 = document.querySelector('h3')
-let h4 = document.querySelector('h4')
-let h5 = document.querySelector('h5')
+// let h1 = document.querySelector('h1')
+// let h2 = document.querySelector('h2')
+// let h3 = document.querySelector('h3')
+// let h4 = document.querySelector('h4')
+// let h5 = document.querySelector('h5')
 
-// == conting ==
+// // == conting ==
 
-// console.log(Conting);
-for (let i = 1; i <= 10; i++) {
-    h1.innerHTML += `${i},`
-}
+// // console.log(Conting);
+// for (let i = 1; i <= 10; i++) {
+//     h1.innerHTML += `${i},`
+// }
 
-// console.log(Reverseconting);
-for(let i = 10; i >= 1; i--){
-    h2.innerHTML += `${i},`
-}
+// // console.log(Reverseconting);
+// for(let i = 10; i >= 1; i--){
+//     h2.innerHTML += `${i},`
+// }
 
-// console.log(Even);
-for(let i = 2; i <= 20; i += 2){
-    h3.innerHTML += `${i},`
-}
+// // console.log(Even);
+// for(let i = 2; i <= 20; i += 2){
+//     h3.innerHTML += `${i},`
+// }
 
-// console.log(Odd);
-for (let i = 3; i <= 20; i += 3){
-    h4.innerHTML += `${i},`
-}
+// // console.log(Odd);
+// for (let i = 3; i <= 20; i += 3){
+//     h4.innerHTML += `${i},`
+// }
 
-// console.log(Series);
-for(let i = 2; i <= 20; i += 2){
-    h5.innerHTML += `${i + 'k,'}` 
-}
+// // console.log(Series);
+// for(let i = 2; i <= 20; i += 2){
+//     h5.innerHTML += `${i + 'k,'}` 
+// }
+
+
+// 8. You have an array
+// A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// Write a program to enable "search by user input" in an array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+
+// let bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userInput = prompt('Enter Your Items Name');
+// let isAvailable = false
+
+// for(let i = 0; i < bakery.length; i++){
+//     if(userInput === bakery[i]){
+//         console.log('Its Available')
+//         isAvailable = true
+//     }
+// }
+// if (!isAvailable){
+//     console.log('Its Not Available');
+// }
+
+// 9. Write a program to identify the largest number in the given
+// array.
+// A = [24, 53, 78, 91, 12]
+
+// let largestNum = [24, 53, 78, 91, 12];
+// console.log(largestNum.sort(''));
+
+// not complete
+
+// 12. Write a program to print multiples of 5 ranging 1 to 100
+
+// for (let i = 5; i < 100; i += 5){
+//     console.log(i);
+// }
+
+// 13. You have given the following arrays:
+// var students = ["Ali", "Sami", "Taha", "Inam"];
+// var scores = [58, 73, 89, 90];
+
+
+// let table = document.querySelector('#table')
+// var students = ["Ali", "Sami", "Taha", "Inam"];
+// var scores = [58, 73, 89, 90];
+
+
+// for(let i = 0; i < students.length; i++){
+//     table.innerHTML += `<table>
+//     <tr>
+//     <th>Student</th>
+//     <th>Scores</th>
+//     </tr>
+//     <td>${students[i]}</td>
+//     <td>${scores[i]}</td>
+//     </table>`
+// }
