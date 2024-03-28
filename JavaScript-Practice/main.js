@@ -90,34 +90,81 @@
 
 // }
 
-let input = document.querySelector('input')
-let ul = document.querySelector('ul')
+// let input = document.querySelector('input')
+// let ul = document.querySelector('ul')
 
 
-function addTask(){
-    if (input.value === ""){
-        alert('Enter YOur Task')
-    }else {
-        let myTask = [];
-        myTask = input.value
-        console.log(myTask);
-        ul.innerHTML += `<li>${myTask}</li>`
-    }
-    input.value = ''
-}
+// function addTask(){
+//     if (input.value === ""){
+//         alert('Enter YOur Task')
+//     }else {
+//         let myTask = [];
+//         myTask = input.value
+//         console.log(myTask);
+//         ul.innerHTML += `<li>${myTask}</li>`
+//     }
+//     input.value = ''
+// }
+
+// let userName = "Haseeb Ur Rehman"
+// alert(userName)
+
+// var num = 1;
+// var newNum = num++
+// console.log(newNum);
+// console.log(num);
+
+// var num = 1;
+// var newNum = ++num
+// console.log(newNum);
+
+// let num = 1;
+// let newNum = num--
+// console.log(newNum);
+// console.log(num);
 
 
+// phala braket wali value solve hoe
+// var resultOfComputation = (2 * 4) * 4 + 2;
+// console.log(resultOfComputation);
 
 
+// var resultOfComputation = ((2 * 4) * 4) + 2;
+// console.log(resultOfComputation);
+
+// let message = "Thanks fro come to my website!"
+// alert(message)
+
+// var question = "Your species?";
+// var defaultAnswer = "human";
+// var spec = prompt(question, defaultAnswer);
+
+// ==> plus laga na Sa string number ma convert ho jata ha
+
+// var numberOfCats = prompt("How many cats?");
+// var tooManyCats = numberOfCats + 1;
+// console.log(tooManyCats);
+
+// var x = prompt('Where are you live!');
+// var y = 'kacrahi'
+// if (x == 'karachi'){
+//     alert('Correct')
+// }else{
+//     alert('wrong address')
+// }
 
 
-
-
-
-
-
-
-
+// var correctAnswer = "Vatican";
+// if (x === correctAnswer) {
+//     score++;
+//     userIQ = "genius";
+//     alert("Correct!");
+// }
+// let yourTicketNumber = 487208
+// let x = +prompt('Enter Tickets Number')
+// if (yourTicketNumber !== 487208) {
+//     alert("Better luck next time.");
+// }
 
 
 

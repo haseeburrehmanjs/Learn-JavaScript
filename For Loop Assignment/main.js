@@ -236,7 +236,7 @@
 
 let userInput = +prompt('Enter Your Number!');
 let star = ''
-let h1 = document.querySelector('h1')
+// let h1 = document.querySelector('h1')
 
 for (i = userInput; i >= 1; i--) {
     let star = ''
