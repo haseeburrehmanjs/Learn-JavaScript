@@ -160,6 +160,8 @@
 //     userIQ = "genius";
 //     alert("Correct!");
 // }
+
+
 // let yourTicketNumber = 487208
 // let x = +prompt('Enter Tickets Number')
 // if (yourTicketNumber !== 487208) {
