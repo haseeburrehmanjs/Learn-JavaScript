@@ -169,6 +169,9 @@
 // }
 
 
+let fruits = ['apple' , 'banana' , 'orange'];
+fruits.splice(1 , 1, 'hasseeb')
+console.log(fruits);
 
 
 
