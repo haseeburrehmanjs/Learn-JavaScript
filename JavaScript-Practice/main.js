@@ -169,9 +169,32 @@
 // }
 
 
-let fruits = ['apple' , 'banana' , 'orange'];
-fruits.splice(1 , 1, 'hasseeb')
-console.log(fruits);
+// let fruits = ['apple' , 'banana' , 'orange'];
+// fruits.splice(1 , 1, 'hasseeb')
+// console.log(fruits);
+
+// fruits.slice()
+
+// let tableNumber = +prompt('Enter Your Value!')
+
+// for (let i = 1; i <= 100; i++){
+//     // console.log(`${i} x ${i} = ${tableNumber*i}`);
+//     console.log(i);
+//     for(let j = 1; j <= 10; j++){
+//         console.log(`${i} x ${j} = ${j*i}`);
+//     }
+// }
+let arr = ['Haseeb', 'Javad', 'Asad bhai']
+let ul = document.querySelector('ul');
+
+for(let i = 0; i < arr.length; i++){
+    ul.innerHTML += `<li>
+    ${arr[i]}
+    </li>` 
+}
+
+
+
 
 
 
