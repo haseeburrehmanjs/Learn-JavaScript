@@ -184,15 +184,88 @@
 //         console.log(`${i} x ${j} = ${j*i}`);
 //     }
 // }
-let arr = ['Haseeb', 'Javad', 'Asad bhai']
-let ul = document.querySelector('ul');
 
-for(let i = 0; i < arr.length; i++){
-    ul.innerHTML += `<li>
-    ${arr[i]}
-    </li>` 
+
+// let arr = ['Haseeb', 'Javad', 'Asad bhai']
+// let ul = document.querySelector('ul');
+
+// for(let i = 0; i < arr.length; i++){
+//     ul.innerHTML += `<li>
+//     ${arr[i]}
+//     </li>` 
+// }
+
+// let softwere = ['Illustartor', 'Photoshop', 'figma', 'indesgin']
+
+// // softwere.push('figma');
+// // softwere.pop('')
+
+// // softwere.unshift('Haseeb');
+// // softwere.shift('')
+
+// // softwere.splice(1 , 2, 'haseeb ur rehman')
+
+// let cut = softwere.slice()
+// console.log(cut);
+
+// console.log(softwere);
+
+// console.log(softwere);
+
+// let sum = 14;
+
+// if (sum !== 20){
+//     console.log('win');
+// }else {
+//     console.log('lose');
+// }
+
+
+// let h1 = document.querySelector('h1');
+// let input = document.querySelector('input')
+// let cities = ['karachi', 'islamabad', 'lahore', 'peshawer'];
+
+// function check(){
+//     if(cities.includes(input.value)){
+//         console.log('you are live in safest city Bro?');
+//         h1.innerHTML += 'you are live in safest city Bro?'
+//     }else {
+//         console.log('BHai life jhand ha');
+//         h1.innerHTML += 'BHai life jhand ha'
+//     }
+//     input.value = ''
+// }
+
+// let haseeb = 'john appleseed';
+// let khan = haseeb.slice(5, 10)
+
+// console.log(khan);
+
+
+// 1. Write a program to display the message “Hello World” 5 times
+// in your browser using for loop.
+
+// for(let i = 0; i <= 5; i++){
+//     console.log('Hello World');
+// }
+
+// 2. Write a program to print numeric counting from 1 to 10.
+
+// for(let i = 0; i <= 10; i++){
+//     console.log(i);
+// }
+
+// 3. Write a program to print multiplication table of any number
+// using for loop. Table number & length should be taken as an
+// input from user
+
+
+let tableNumber = +prompt('Enter table Number!');
+let length = +prompt('Enter Table lenght!');
+
+for(let i = tableNumber; tableNumber < 10; i++){
+    console.log(`${tableNumber} x ${length} = ${tableNumber*length}`);
 }
-
 
 
 
