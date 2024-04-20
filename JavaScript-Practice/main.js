@@ -260,12 +260,26 @@
 // input from user
 
 
-let tableNumber = +prompt('Enter table Number!');
-let length = +prompt('Enter Table lenght!');
+// let number = +prompt('Enter Table Number!');
+// let length = +prompt('Enter Table Lenght!');
 
-for(let i = tableNumber; tableNumber < 10; i++){
-    console.log(`${tableNumber} x ${length} = ${tableNumber*length}`);
+// for(let number = length; number <= length; number++){
+//     console.log(number);
+//     for(let j = 1; j < length; j++){
+//         console.log(`${number} x ${j} = ${number*j}`);
+//     }
+// }
+
+let number = +prompt('Enter Your Table Number');
+let length = +prompt('How many Times Do you want?');
+
+for(let number = length; number <= length; number++){
+    for(let j = 1; j <= length; j++){
+    console.log(`${number} x ${j} = ${number*j}`);
+    }
 }
+
+
 
 
 
