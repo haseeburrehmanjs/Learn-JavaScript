@@ -279,6 +279,10 @@ for(let number = length; number <= length; number++){
     }
 }
 
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
+
 
 
 
