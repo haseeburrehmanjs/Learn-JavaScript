@@ -279,10 +279,17 @@ for(let number = length; number <= length; number++){
     }
 }
 
-for(let i = 0; i < 10; i++){
-    console.log(i);
-}
+// for(let i = 0; i < 10; i++){
+//     console.log(i);
+// }
 
+let num = 15;
+
+if(num / 3 === 0){
+    console.log('divislbe by 3');
+}else {
+    console.log('node ');
+}
 
 
 
