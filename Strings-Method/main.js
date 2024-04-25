@@ -35,7 +35,7 @@
 // 3. Write a program to find the index of letter “n” in the word
 // “Pakistani” and display the result in your browser.
 
-// let countryName = 'Pakistani'
+// let countryName = 'Pakistan'
 // let check = countryName.indexOf('n')
 // console.log(check);
 
@@ -44,9 +44,34 @@
 // 4. Write a program to find the last index of letter “l” in the word
 // “Hello World” and display the result in your browser.
 
-let user = 'Hello World'
-console.log(user.length);
-console.log(user.indexOf(11));
+// let user = 'Hello World'
+// console.log(user.length);
+// console.log(user.lastIndexOf());
 
+// =====> COMPLETEED TASK!
 
+// 5. Write a program to find the character at 3rd index in the word
+// “Pakistani” and display the result in your browser.
+
+// let countryName = 'Pakistan'
+// let x = countryName.charAt(3)
+// console.log(x);
+
+// =====> COMPLETEED TASK!
+
+// 6. Repeat Q1 using string concat() method.
+
+// let fName = prompt('Enter first Name!')
+// let lName = prompt('Enter last Name!')
+// let fullName = fName.concat(lName)
+// console.log(fullName);
+
+// =====> COMPLETEED TASK!
+
+// 7. Write a program to replace the “Hyder” to “Islam” in the word
+// “Hyderabad” and display the result in your browser.
+
+// let City = 'Hyderbad'
+// let x = City.replace("Hyder", "Islam")
+// console.log(x);
 
