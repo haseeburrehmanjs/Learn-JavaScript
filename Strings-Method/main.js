@@ -114,6 +114,14 @@
 
 // =====> COMPLETEED TASK!
 
+// 12. Write a program that takes user input. Convert and show the
+// input in small letters.
+
+// let SimOne = 'ZONG 4G'
+// console.log(SimOne.toLowerCase());
+
+// =====> COMPLETEED TASK!
+
 
 
 
