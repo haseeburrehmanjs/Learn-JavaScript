@@ -75,3 +75,47 @@
 // let x = City.replace("Hyder", "Islam")
 // console.log(x);
 
+// =====> COMPLETEED TASK!
+
+// 8. Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser.;
+
+// let pragraph = '“Ali and Sami are best friends. They play cricket and football together.”'
+// let change = pragraph.replaceAll('and', '&')
+// document.write(change)
+
+// =====> COMPLETEED TASK!
+
+// 9. Write a program that converts a string “472” to a number 472.
+// Display the values & types in your browser.
+
+// let Number = '786';
+// document.write(typeof(Number))
+// let num = +Number;
+// document.write(typeof(num))
+
+// =====> COMPLETEED TASK!
+
+// 10. Write a program that take a URL as user input in the
+// following format: (www.facebook.com / www.yahoo.com ).
+// Extract the domain name & show in your browser.
+
+// let Url = "www.haseeb.com"
+// let ubdateUrl = Url.slice(4,)
+// document.write(ubdateUrl)
+
+// =====> COMPLETEED TASK!
+
+// 11. Write a program that takes user input. Convert and show the
+// input in capital letters.
+
+// let dryFruits = "peanuts";
+// document.write(dryFruits.toUpperCase())
+
+// =====> COMPLETEED TASK!
+
+
+
+
+
+
