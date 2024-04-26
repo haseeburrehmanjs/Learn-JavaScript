@@ -122,6 +122,13 @@
 
 // =====> COMPLETEED TASK!
 
+// 13. Write a program that takes user input. Convert and show the
+// input in title case
+
+// let userInput = prompt('Which Computer language are You Learn Now!')
+// document.write(userInput.toLocaleUpperCase())
+
+// =====> COMPLETEED TASK!
 
 
 
