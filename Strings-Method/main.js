@@ -130,6 +130,101 @@
 
 // =====> COMPLETEED TASK!
 
+// 14. Write a program that converts the variable num to string.
+//  var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser.
+
+// let numOne = .6835;
+// numOne = '35.68'
+// let numTwo = numOne.slice()
+// document.write(numTwo)
+
+// =====> NOT COMPLETEED TASK! XXXXXXXXXXXXXXXX
+
+// 15. Write a program to display the value of x in your browser if a=”3”
+// and b=”3”?
+
+// let a = '3'
+// let b = '3'
+// document.write(`a is = ${a}`)
+// document.write(`b is = ${b}`)
+// document.write(`a + b = ${a+b}`)
+
+// =====> COMPLETEED TASK!
+
+// 16. Write a program to display the value of y in your browser if a=”3”
+// and b=”3”?
+
+// let a = 3;
+// let b = 3;
+// let y = a - b;
+// document.write(`a is ${a}`)
+// document.write(`b is ${b}`)
+// document.write(`a - b = ${a - b}` )
+
+// =====> COMPLETEED TASK!
+
+// 18. You have an array
+//  A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an array.
+// After searching, prompt the user whether the given item is
+// found in the list or not.
+// Note: Perform case insensitive search. Whether the user enters
+// cookie, Cookie, COOKIE or coOkIE, program should inform
+// about its availability. Example:
+
+// let userInput = prompt('What do you Want!')
+// let a = ['cake', 'apple', 'pie', 'cookie', 'chips', 'patties']
+
+// if (a.includes(userInput)){
+//     let indexValue = a.indexOf(userInput)
+//     document.write(`${userInput} is Availble at index of ${indexValue}`);
+// }else {
+//     document.write(`We Are Sorry ${userInput} is not Availble in Our bekery`);
+// }
+
+// =====> COMPLETEED TASK!
+
+// 19. Write a program to take two input strings. Using string
+// comparison, tell which string is greater than other or if they
+// both are equal.
+
+// let fNumber = +prompt('Enter First Number');
+// let sNumber = +prompt('Enter Secound Number');
+
+// if (fNumber >= sNumber){
+//     console.log('First Number bara ha!');
+// }else {
+//     console.log('First Number Chota ha!');
+// }
+
+// =====> COMPLETEED TASK!
+
+// 21. Write a program to convert the following string to an array
+// using string split method.
+//  var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+// let university = 'University of Karachi';
+// let change = university.split('')
+// let ul = document.querySelector('ul')
+// // console.log(change);
+// // document.write(change)
+
+// for(let i = 1; i <= change.length; i++){
+//     ul.innerHTML += `<li>${change[i]}</li>`
+// }
+
+// =====> COMPLETEED TASK!
+
+// 22. Write a program to display the last character of a user input.
+
+let usnerInput = prompt('Enter Your Country Name!')
+let userLenght = usnerInput.length;
+let userIndex = userLenght.
+
+
+
 
 
 
