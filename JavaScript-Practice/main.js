@@ -333,19 +333,45 @@
 // console.log(obj.greetUser()); // OBJECT KA FUNCATION CALL KRANA KA LIYA 
 // console.log(obj); // OBJECT CALL KRA NA KA LIYA 
 
-let input1 = document.querySelector('#input1');
-let input2 = document.querySelector('#input2');
-let input3 = document.querySelector('#input3');
+// let input1 = document.querySelector('#input1');
+// let input2 = document.querySelector('#input2');
+// let input3 = document.querySelector('#input3');
 
-// let user = null;
-function addTwo(){
-    let user = {
-        userName : input1.value,
-    }
-    return input1.value
-    console.log(user);
+// // let user = null;
+// function addTwo(){
+//     let user = {
+//         userName : input1.value,
+//     }
+//     return input1.value
+//     console.log(user);
+// }
+
+// let array = [1,2,3]
+// array.length = 2;
+// console.log(array[2]);
+
+
+// HOW TO DEFINE ARRAY & OBJECT
+
+// let persom = [] THIS IS ARRAY!
+// let persom = {} THIS IS OBJECT!
+
+// let person = ['Haseeb' , 'Rajput' , 17]
+// console.log(person);
+
+let person = {
+    firstName : 'Haseeb',
+    lastName : 'Rajput',
+    age : 17
 }
 
+person.email = 'haseeburrehmanjs@gmail.com'
+// delete person.age  // OBJECT MA SA KUCH DELETE KRNA KA LIYA 
+console.log(person);
+
+// console.log(person.email); // JUB OBJECT MA EMAIL NA HO TO UNDIFINE SHOW KRA GA!
+
+// console.log('lastName' in person); // AGR VALUE TRUE FALSE MA SHOW KRA NI HO TO IS TRAH LIKHTA HAIN 
 
 
 
