@@ -270,38 +270,81 @@
 //     }
 // }
 
-let number = +prompt('Enter Your Table Number');
-let length = +prompt('How many Times Do you want?');
+// let number = +prompt('Enter Your Table Number');
+// let length = +prompt('How many Times Do you want?');
 
-for(let number = length; number <= length; number++){
-    for(let j = 1; j <= length; j++){
-    console.log(`${number} x ${j} = ${number*j}`);
-    }
-}
+// for(let number = length; number <= length; number++){
+//     for(let j = 1; j <= length; j++){
+//     console.log(`${number} x ${j} = ${number*j}`);
+//     }
+// }
 
 // for(let i = 0; i < 10; i++){
 //     console.log(i);
 // }
 
-let num = 15;
+// let num = 15;
 
-if(num / 3 === 0){
-    console.log('divislbe by 3');
-}else {
-    console.log('node ');
+// if(num / 3 === 0){
+//     console.log('divislbe by 3');
+// }else {
+//     console.log('node ');
+// }
+
+
+// 1. Write a program to check whether the given input number is
+// divisible by 3 or else show a message “Number is not divisible
+// by 3”.
+
+// let userNumber = prompt('Enter Your Number!')
+
+// if(userNumber % 3 === 0){
+//     console.log('Its divible by 3');
+// }else {
+//     console.log('its not divible by 3');
+// }
+
+// let obj = {
+//     username: 'Haseeb Ur Rehman',
+//     email: 'haseeburrehmanjs@gmail.com',
+//     age: 17,
+//     islongIn : false,
+// }
+
+// console.log(obj.username);
+// console.log(obj.age);
+// console.log(obj.email);
+
+// console.log(obj['age']);
+
+// let obj = {
+//     name: 'Haseeb Ur Rehman',
+//     email: 'haseeburrehmanjs@gmail.com',
+//     age: 17,
+//     greetUser: function (){
+//         console.log('Hello World!');
+//         return this.name
+//     }
+// } 
+
+// obj.lastName = 'Ur Rehman' //ADD KRNA KA LIYA 
+// obj.userName = 'Haseeb' // ADD KRNA KA LIYA
+// delete obj.name // DELETE KRNA KA LIYA 
+// console.log(obj.greetUser()); // OBJECT KA FUNCATION CALL KRANA KA LIYA 
+// console.log(obj); // OBJECT CALL KRA NA KA LIYA 
+
+let input1 = document.querySelector('#input1');
+let input2 = document.querySelector('#input2');
+let input3 = document.querySelector('#input3');
+
+// let user = null;
+function addTwo(){
+    let user = {
+        userName : input1.value,
+    }
+    return input1.value
+    console.log(user);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
