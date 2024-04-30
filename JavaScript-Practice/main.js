@@ -359,21 +359,65 @@
 // let person = ['Haseeb' , 'Rajput' , 17]
 // console.log(person);
 
-let person = {
-    firstName : 'Haseeb',
-    lastName : 'Rajput',
-    age : 17
-}
+// let person = {
+//     firstName : 'Haseeb',
+//     lastName : 'Rajput',
+//     age : 17
+// }
 
-person.email = 'haseeburrehmanjs@gmail.com'
+// person.email = 'haseeburrehmanjs@gmail.com'
 // delete person.age  // OBJECT MA SA KUCH DELETE KRNA KA LIYA 
-console.log(person);
+// console.log(person);
 
 // console.log(person.email); // JUB OBJECT MA EMAIL NA HO TO UNDIFINE SHOW KRA GA!
 
 // console.log('lastName' in person); // AGR VALUE TRUE FALSE MA SHOW KRA NI HO TO IS TRAH LIKHTA HAIN 
 
 
+// ======= DATE & TIME ========
+
+// let d = new Date();
+// document.write(d.getMonth())
+
+// new Date ===> // Tue Apr 30 2024 10:05:04 GMT+0500 (Pakistan Standard Time) is trah batai ga
+// toDateString ===> // Tue Apr 30 2024 is trah batai ga 
+// getFullYear ===> 2024 Year malom krna ka liya 
+// getMonth ===> // month index 0 sa start hota ha like janwary 0 
+
+// ======== OBJECT =======
+
+// let person = {
+//     firstName : 'Haseeb',
+//     lastName : 'Rajput',
+//     age : 17,
+//     email : 'haseeburrehmanjs@gmail.com',
+//     hobbies : [
+//         'Listning Music' , 'Car Driving' , 'Talking person'
+//     ],
+//     living : function (){
+//         return 2000
+//     }
+// }
+
+// person.lastName = 'ur rehman';
+// delete person.age;
+// person.age = 17;
+// person.phoneNumber = 03167979839;
+
+// console.log(person.living());
+
+let userName = document.querySelector('#username')
+let phone = document.querySelector('#phonenumber')
+let email = document.querySelector('#email')
+
+function submit(){
+    let person = {
+        userName : userName.value,
+        phone : phone.value,
+        email : email.value
+    }
+    console.log(person);
+}
 
 
 
