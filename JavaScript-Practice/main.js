@@ -416,6 +416,10 @@ function submit(){
         phone : phone.value,
         email : email.value
     }
+
+    userName.value = ''
+    phone.value = ''
+    email.value =''
     console.log(person);
 }
 
