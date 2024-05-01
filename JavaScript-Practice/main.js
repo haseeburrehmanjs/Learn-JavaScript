@@ -406,26 +406,108 @@
 
 // console.log(person.living());
 
-let userName = document.querySelector('#username')
-let phone = document.querySelector('#phonenumber')
-let email = document.querySelector('#email')
+// let userName = document.querySelector('#username')
+// let phone = document.querySelector('#phonenumber')
+// let email = document.querySelector('#email')
 
-function submit(){
-    let person = {
-        userName : userName.value,
-        phone : phone.value,
-        email : email.value
+// function submit(){
+//     let person = {
+//         userName : userName.value,
+//         phone : phone.value,
+//         email : email.value
+//     }
+
+//     userName.value = ''
+//     phone.value = ''
+//     email.value =''
+//     console.log(person);
+// }
+
+
+// =========== OBJECT SCREEN RENDER =========
+
+
+const users = [
+    {
+        name: "Alice",
+        age: 25,
+        hobbies: ["Reading", "Painting"]
+    },
+    {
+        name: "Bob",
+        age: 30,
+        hobbies: ["Playing guitar", "Cooking"]
+    },
+    {
+        name: "Charlie",
+        age: 22,
+        hobbies: ["Hiking", "Photography"]
+    },
+    {
+        name: "David",
+        age: 28,
+        hobbies: ["Running", "Watching movies"]
+    },
+    {
+        name: "Ella",
+        age: 35,
+        hobbies: ["Traveling", "Knitting"]
+    },
+    {
+        name: "Frank",
+        age: 20,
+        hobbies: ["Gaming", "Drawing"]
+    },
+    {
+        name: "Grace",
+        age: 27,
+        hobbies: ["Singing", "Dancing"]
+    },
+    {
+        name: "Hannah",
+        age: 32,
+        hobbies: ["Cooking", "Yoga"]
+    },
+    {
+        name: "Ian",
+        age: 24,
+        hobbies: ["Playing football", "Reading"]
+    },
+    {
+        name: "Jessica",
+        age: 29,
+        hobbies: ["Writing", "Cycling" , 'swimming']
+    }
+];
+
+
+// let div = document.querySelector('#users')
+
+// for(let i = 0; i <= users.length; i++){
+//     // console.log(users[i].name);
+//     div.innerHTML += `
+//     <h1>Name: ${users[i].name}</h1>
+//     <h2>Age : ${users[i].age}</h2>
+//     <h3></h3>
+//     <hr />
+//     `
+// }
+
+let div = document.querySelector('#users')
+
+for (let i = 0; i <= users.length; i++){
+    div.innerHTML += `
+    <h1>Name : ${users[i].name}</h1>
+    <h2>Age : ${users[i].age} </h2>
+    `
+    for(let j = 0; j < users[i].hobbies.length; j++){
+        console.log(users[j].hobbies[j]);
+        div.innerHTML += `<li>
+        ${users[i].hobbies[j]}
+        </li>
+        `
     }
-
-    userName.value = ''
-    phone.value = ''
-    email.value =''
-    console.log(person);
 }
-
-
-
-
 
 
 

@@ -8,7 +8,7 @@ var c = a++ - b-- + --a + a++;
 
 console.log(c);
 
-var comparision = ; 
+// var comparision = ; 
 console.log(comparision);
 
 
@@ -103,8 +103,8 @@ if (persentage > 70 && 50 < persentage) {
     console.log(persentage);
 }
 
-++num preincriment
-num++ costincrement
+// ++num preincriment
+// num++ costincrement
 
 
 var Divison = +prompt("Write is even Number")
