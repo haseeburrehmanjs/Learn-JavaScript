@@ -110,13 +110,18 @@ let div = document.querySelector('#users')
 
 for (let i = 0; i < products.length; i++) {
     div.innerHTML += `
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 15rem;">
     <img src="https://i.pinimg.com/564x/ec/bd/c6/ecbdc6dd6fae8a81f47cfa2b932bc5c6.jpg" class="card-img-top" alt="...">
     <div class="card-body">
     <h5 class="card-title"> ${products[i].name}</h5>
+    <h5 class="card-title"> Price : ${products[i].price}</h5>
     <p class="card-text">${products[i].description}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary" onclick="check(${i})">Go somewhere</a>
     </div>
-</div>
+    </div>
     `
+}
+
+function check(index){
+    console.log(`Name : ${products[index].name}`)
 }

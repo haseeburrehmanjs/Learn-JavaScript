@@ -3,3 +3,12 @@ input {
     height: 46px;
     padding: 10px;
 }
+
+button {
+    height: 46px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: #fff;
+}
