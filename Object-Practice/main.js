@@ -98,30 +98,39 @@ const products = [
         name: "Graphic Tablet",
         price: 199.99,
         description: "Express your creativity with this digital drawing tablet."
-    },
-    {
-        name: "Wireless Router",
-        price: 79.99,
-        description: "Fast and reliable internet connection for your home network."
     }
 ];
 
-let div = document.querySelector('#users')
+
+let section = document.querySelector('#card-section');
 
 for (let i = 0; i < products.length; i++) {
-    div.innerHTML += `
-    <div class="card" style="width: 15rem;">
-    <img src="https://i.pinimg.com/564x/ec/bd/c6/ecbdc6dd6fae8a81f47cfa2b932bc5c6.jpg" class="card-img-top" alt="...">
+    // console.log(products[i]);
+    section.innerHTML += `
+    <div>
+    <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.samaa.tv/images/pakistan-govt-mobile-installments.jpg" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title"> ${products[i].name}</h5>
-    <h5 class="card-title"> Price : ${products[i].price}</h5>
-    <p class="card-text">${products[i].description}</p>
-    <a href="#" class="btn btn-primary" onclick="check(${i})">Go somewhere</a>
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a onclick='addToCard(${i})' class="btn btn-primary">Go somewhere</a>
+    </div>
     </div>
     </div>
     `
 }
 
-function check(index){
-    console.log(`Name : ${products[index].name}`)
+let addItemes = []; 
+
+function addToCard(index){
+    // console.log(products[index]);
+    if(addItemes.includes(addItemes.push(products[index]))){
+        // addItemes.push(products[index])
+        products[index].quaintity += 1
+        console.log(addItemes);
+    }else
+    products[index].quaintity = 1
+    console.log(addItemes);
 }
+
+
