@@ -111,8 +111,9 @@ for (let i = 0; i < products.length; i++) {
     <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="https://www.samaa.tv/images/pakistan-govt-mobile-installments.jpg" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">${products[i].name}</h5>
+    <h5 class="card-title">Price : ${products[i].price}</h5>
+    <p class="card-text">${products[i].description}</p>
     <a onclick='addToCard(${i})' class="btn btn-primary">Go somewhere</a>
     </div>
     </div>
@@ -120,17 +121,19 @@ for (let i = 0; i < products.length; i++) {
     `
 }
 
-let addItemes = []; 
+let addItemes = [];
 
-function addToCard(index){
+function addToCard(index) {
     // console.log(products[index]);
-    if(addItemes.includes(addItemes.push(products[index]))){
-        // addItemes.push(products[index])
+    if (addItemes.includes(products[index])) {
         products[index].quaintity += 1
         console.log(addItemes);
-    }else
-    products[index].quaintity = 1
-    console.log(addItemes);
+    } else {
+        products[index].quaintity = 1
+        addItemes.push(products[index])
+        console.log(addItemes)
+    }
+
 }
 
 
