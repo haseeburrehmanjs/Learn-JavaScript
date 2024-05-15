@@ -52,3 +52,10 @@
 //     }else {
 //         h1.innerHTML += 'Head <br />'
 //     }
+
+// function hello(username){
+//     console.log(username);
+// }
+// console.log(hello('haseeb'));
+
+
