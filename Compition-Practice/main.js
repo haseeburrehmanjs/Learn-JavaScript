@@ -92,17 +92,44 @@
 // After searching, prompt the user whether the given item is
 // found in the list or not. Example
 
+// let userInput = prompt('What do you want!')
+// let bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+// let isAvailable = false
 
-let userInput = prompt('What do you want!')
-let bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
-let isAvailable = false
+// for(let i = 0; i < bakery.length; i++){
+//     if(userInput === bakery[i]){
+//         console.log('Its Available')
+//         isAvailable = true
+//     }
+// }
+// if (!isAvailable){
+//     console.log('Its Not Available');
+// }
 
-for(let i = 0; i < bakery.length; i++){
-    if(userInput === bakery[i]){
-        console.log('Its Available')
-        isAvailable = true
-    }
-}
-if (!isAvailable){
-    console.log('Its Not Available');
-}
+
+// 9. Write a program to identify the largest number in the given
+// array.
+
+// let a = [24, 53, 78, 91, 12];
+// let b = Math.max(...a)
+// console.log(`THIS IS LARGEST NUMBER :${b}`);
+
+// 10. Write a program to identify the smallest number in the given
+// array.
+
+// let a = [24, 53, 78, 91, 12]
+// let b = Math.min(...a)
+// console.log(`THIS IS SMALLES NUMBER :${b}`);
+
+
+// 11. Write a program to identify the largest & the smallest
+// number in the given array.
+
+let a = [24, 53, 78, 91, 12]
+
+let b = Math.max(...a)
+let c = Math.min(...a)
+
+console.log(`THIS IS LARGEST NUMBER :${b} <br />
+THIS IS SMALLEST NUMBER : ${c}
+`);
