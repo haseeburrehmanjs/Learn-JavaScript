@@ -125,11 +125,118 @@
 // 11. Write a program to identify the largest & the smallest
 // number in the given array.
 
-let a = [24, 53, 78, 91, 12]
+// let a = [24, 53, 78, 91, 12]
 
-let b = Math.max(...a)
-let c = Math.min(...a)
+// let b = Math.max(...a)
+// let c = Math.min(...a)
 
-console.log(`THIS IS LARGEST NUMBER :${b} <br />
-THIS IS SMALLEST NUMBER : ${c}
-`);
+// console.log(`THIS IS LARGEST NUMBER :${b} <br />
+// THIS IS SMALLEST NUMBER : ${c}
+// `);
+
+// 12. Write a program to print multiples of 5 ranging 1 to 100
+
+// for(let i = 5; i <= 100; i += 5){
+//     console.log(i);
+// }
+
+// 13. You have given the following arrays:
+
+// var students = ["Ali", "Sami", "Taha", "Inam"];
+// var scores = [58, 73, 89, 90];
+
+// let table = document.querySelector('table')
+
+// for(let i = 0; i < students.length; i ++){
+//     table.innerHTML += `
+//     <tr class="border">
+//     <th>Student</th>
+//     <th>Score</th>
+//     <tr/>
+//     <td class="border">${students[i]}</td>
+//     <td class="border">${scores[i]}</td>
+//     ` 
+// }
+
+
+// // 14. Write a program that prints number from start of the array to desired stop value. Given array:
+// // var scores = [12, 45, 3, 22, 34, 50];
+// // (Hint: take stop value from user)
+// // E.g. if user gives 3 as input value print 12, 45, 3 if user gives 34 as input value print 12, 45, 3, 22, 
+
+// let score = [12,45,3,22,34,50];
+// let input = +prompt(`Enter a number!`);
+// for (let i = 0; i < score.length; i++) {
+//     if (input == score[i]) {
+//         document.write(`${score[i]}, `)
+//         console.log(`${score[i]}, `);
+//         break;
+//     }else{
+//         document.write(`${score[i]}, `)
+// }
+// }
+
+// let scores = [12, 45, 3, 22, 34, 50];
+// let input = +prompt('Enter score')
+
+// for(let i = 0; i < scores.length; i++){
+//     console.log(scores[i]);
+//     if(scores[i] == input){
+//         console.log(scores[i]);
+//         break;
+//     }else{
+//         console.log(scores[i]);
+//     }
+// }
+
+// 16. Write a program to repeatedly print the value of the variable
+// num which is input by user. Value should be decreasing by 0.5
+// each time, as long as x Value remains positive.
+
+// let num = 5
+
+// for(;num > 0; num -= 0.5){
+//     console.log(num)
+// }
+
+// 17. The even/odd reporter
+// Write a for loop that will iterate from 0 to 20. For each
+// iteration, it will check if the current number is even or odd, and
+// report that to the screen (e.g. "2 is even").
+
+
+// for (let i = 0; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log(`${i} this is Even number`);
+//     }else {
+//         console.log(`${i} this is ODD NUMBER`);
+//     }
+// }
+
+// 19. Write a program that will write out a wedge of stars. The user
+// will enter the initial number of stars, and the program will write
+// out lines of stars where each line has one few star than the
+// previous line. Initial number of stars: 7
+
+// let userInput = +prompt('Enter your number!')
+// let star;
+
+// for(let i = userInput; i >= 1; i--){
+//     let star = ''
+//     for(let j = 1; j <= i; j++){
+//         console.log(star += '*');;
+//     }
+// }
+
+
+let userInput = +prompt('Enter Your Number!');
+// let star = ''
+// let h1 = document.querySelector('h1')
+
+for (i = userInput; i >= 1; i--) {
+    let star = ''
+    for (j = 1; j <= i; j++) {
+        star += "*"
+    }
+    console.log(star);
+}

@@ -170,6 +170,30 @@ let DayOfWeek = 'kjhas';
 // alert(typeof(num1))
 
 
-let UserName = 'haseeburrehman'
+// let UserName = 'haseeburrehman'
 
-console.log(UserName.slice(5,6));
+// console.log(UserName.slice(5,6));
+
+// LEARN TERNAY OPERATOE
+
+let age = 18;
+// let drive = age >= 20 ? 'Too YOungh' : 'Old enough'
+// console.log(drive);
+
+
+// let HoliDays = 'sunday'
+// let check = HoliDays === 'sunday' ? 'Today OFF' : 'Today ON'
+// console.log(check);
+
+// Write a function that takes a string as input and
+// returns the number of vowels (a, e, i, o, u) in the
+// string using a loop
+
+// let UserName = prompt('Enter your Name!')
+// let vowels = ['a', 'e', 'i', 'o', 'u']
+
+// let split = UserName.split('')
+
+// let check = vowels.find(split);
+// console.log(check);
+
