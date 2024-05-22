@@ -83,7 +83,7 @@ let foo = function(){
 }
 // foo()
 
-// Array of function 
+// Arrow of function 
 let ab = (a,b) => {
     console.log(a + b);
 }
@@ -197,3 +197,24 @@ let age = 18;
 // let check = vowels.find(split);
 // console.log(check);
 
+
+// STRING METHOD
+
+// .lenght;
+// .concat
+// .split
+// .reverse
+
+
+// let JavaScript = 'Javascript is great language'
+// let HTML = 'Hipper Text Markup language'
+// let a = JavaScript.split(' ');
+
+// console.log(a);
+
+let number1 = [213,231,321,312,313,231,13]
+let number2 = [121,3212,3213,1313,21,123,231,23]
+let number3 = [...number1,...number2]
+let totlaLenght = number3.join()
+
+console.log(totlaLenght);

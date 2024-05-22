@@ -134,10 +134,12 @@
 //  var num = 35.36 ;
 // Remove the dot to display “3536” display in your browser.
 
-// let numOne = .6835;
-// numOne = '35.68'
-// let numTwo = numOne.slice()
-// document.write(numTwo)
+let numOne = 35.36;
+let ubdate = numOne.(2,)
+console.log(ubdate);
+
+let numTwo = numOne.slice()
+document.write(numTwo)
 
 // =====> NOT COMPLETEED TASK! XXXXXXXXXXXXXXXX
 
@@ -219,9 +221,13 @@
 
 // 22. Write a program to display the last character of a user input.
 
-let usnerInput = prompt('Enter Your Country Name!')
-let userLenght = usnerInput.length;
-let userIndex = userLenght.
+// let usnerInput = prompt('Enter Your Country Name!')
+
+
+
+
+
+
 
 
 
