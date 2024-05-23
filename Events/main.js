@@ -26,8 +26,8 @@ let btn = document.querySelector('#btn')
 // ===============> bubbling
 // ===============> capturing
 
-let ul = document.querySelector('#ul');
-let instgram = document.querySelector('#instgram')
+// let ul = document.querySelector('#ul');
+// let instgram = document.querySelector('#instgram')
 
 // ul.addEventListener('click', function(){
 //     console.log('CHECKED EVENTS');
@@ -35,6 +35,18 @@ let instgram = document.querySelector('#instgram')
 
 // instgram.addEventListener('click', function(){
 //     console.log('instagram checked');
+// })
+
+// let ul = document.querySelector('ul')
+// let li = document.querySelector('#instgram')
+
+// ul.addEventListener('click', function(event){
+//     console.log(event.target.tagName);
+//     event.target.remove()
+// })
+
+// li.addEventListener('click', function(){
+//     console.log('instgran');
 // })
 
 
@@ -85,3 +97,34 @@ let instgram = document.querySelector('#instgram')
 //     console.log(regex.test(email.value))
 //     console.log(cnicRegex.test(email.value))
 // })
+
+
+// onChange
+
+// let input = document.querySelector('#input1')
+// input.addEventListener('change', function(){
+//     console.log('CHANGE');
+// })
+
+// let box = document.querySelector('.box')
+
+// box.addEventListener('mouseout', function (){
+//     box.computedStyleMap.
+// })
+
+
+// let ul = document.querySelector('#ul')
+
+// ul.addEventListener('click', function(event){
+//     console.log(event.target.tagName);
+//     event.target.remove()
+// })
+
+// let images = document.querySelector('#images')
+
+// images.addEventListener('click', function(event){
+//     console.log(event.target.tagName);
+//     event.target.perentNode.remove()
+// })
+
+
