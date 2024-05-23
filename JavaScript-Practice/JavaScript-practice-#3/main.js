@@ -212,9 +212,92 @@ let age = 18;
 
 // console.log(a);
 
-let number1 = [213,231,321,312,313,231,13]
-let number2 = [121,3212,3213,1313,21,123,231,23]
-let number3 = [...number1,...number2]
-let totlaLenght = number3.join()
+// let number1 = [213,231,321,312,313,231,13]
+// let number2 = [121,3212,3213,1313,21,123,231,23]
+// let number3 = [...number1,...number2]
+// let totlaLenght = number3.join()
 
-console.log(totlaLenght);
+// console.log(totlaLenght);
+
+
+// Write a function that takes a string as input and
+// returns the number of vowels (a, e, i, o, u) in the
+// string using a loop.
+
+let UserName = 'aeiou'
+let vowels = ['a', 'e', 'i', 'o', 'u']
+
+function checkVowels(){
+    for(let i = 0; i < vowels.length; i++){
+        console.log(vowels[i]);
+        // console.log(UserName[i]);
+        let check = vowels.includes(UserName[i])
+        console.log(check);
+    }
+}
+// checkVowels()
+
+
+// Write a function that takes an array of numbers
+// as input and returns the maximum number in the
+// array using a loop.
+
+
+let maxNumber = [21,121,2312,3213,213,13212,1,212,1]
+
+function max(){
+    let check = Math.max(...maxNumber)
+    console.log(check);
+}
+// max()
+
+// Write a function that takes a string as input and
+// returns whether the string is a palindrome or not
+// using a loop. A palindrome is a word, phrase,
+// number, or other sequence of characters that
+// reads the same forward and backward. like
+// “level” “madam”
+
+let userName = 'haseeb'
+let condition = true
+
+function palindrome(){
+    for(let i = 0; i < userName.length; i++){
+        let check = userName.split('')
+        console.log(check[i]);
+        let checkAgain = check.reverse(userName[i])
+        if(checkAgain === beesah){
+            console.log('this is palindrome');
+        }else{
+            console.log('this is not palindrome');
+        }
+    }
+}
+// palindrome()
+
+
+
+// Given an array of colors, write JavaScript code
+// to create HTML elements (e.g., divs) with each
+// color from the array assigned as the
+// background color of each respective element
+// using DOM manipulation.
+// Example 
+
+
+let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown']
+
+let colorDiv = document.querySelector('#color')
+
+function colorBox(){
+    for(let i = 0; i < color.length; i++){
+        console.log(color[i]);
+        colorDiv.innerHTML += `
+        <div>
+        ${color[i]}
+        </div>
+        `
+    }
+}
+
+colorBox()
