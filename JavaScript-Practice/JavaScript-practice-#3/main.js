@@ -285,19 +285,49 @@ function palindrome(){
 // Example 
 
 
-let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown']
+// let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown']
 
 let colorDiv = document.querySelector('#color')
 
-function colorBox(){
-    for(let i = 0; i < color.length; i++){
-        console.log(color[i]);
-        colorDiv.innerHTML += `
-        <div>
-        ${color[i]}
-        </div>
-        `
-    }
-}
+// function colorBox(){
+//     for(let i = 0; i < color.length; i++){
+//         console.log(color[i]);
+//         colorDiv.innerHTML += `
+//         <div>
+//         ${color[i]}
+//         </div>
+//         `
+//     }
+// }
 
-colorBox()
+// colorBox()
+
+// callback === >
+// koi bhi function apna under as an argument function la ussa callback function khata hain
+
+// .Map
+// .filter
+// .reduce
+
+
+
+let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown']
+
+// color.forEach((items) => {
+//     console.log(items);
+//     colorDiv.innerHTML += `
+//     <h1>${items}</h1>
+//     `
+// })
+
+color.map((items,index)=> {
+    colorDiv.innerHTML += `
+    <h1>${items}</h1>
+    `
+    console.log(index);
+    console.log(items);
+})
+
+// regex 
+
+// regular experssion are pattern use to match charactor combination in javascript. regular experssion are also object
