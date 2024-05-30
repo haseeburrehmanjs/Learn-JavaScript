@@ -288,8 +288,118 @@ const products = [
 
 // console.log(products);
 
-let filterCategry = products.filter(item => {
-    return item.category === 'Home Appliances'
+// let filterCategry = products.filter(item => {
+//     return item.category === 'Home Appliances'
+// })
+
+// console.log(filterCategry);
+
+// console.log('hello world!');
+
+let array = ['apple','banana','gawava','naspati','mango','watermelaon']
+
+// for(let i of array){
+//     console.log(i);
+// }
+
+// for (const iterator of array) {
+//     console.log(iterator);
+// }
+
+// for (const key in products) {
+//     console.log(products[key])  
+// }
+
+// for(const key in products){
+//     console.log(products[key]);
+// }
+
+// let render = products.map(item => {
+//     console.log(item);
+// })
+
+// function hello(){
+//     console.log('WORLD!');
+// }
+
+// btn.addEventListener('click', hello)
+// btn.addEventListener('click',funck)
+
+
+
+
+
+// let h1 = document.querySelector('h1')
+// let btn = document.querySelector('button');
+
+// let funck = array.map((item , index) => {
+//     return h1.innerHTML += `${item} of ${index}  <br />`
+// })
+
+// console.log(funck);
+
+
+let number = [1,2,3,4,5,6,8,9]
+
+// let find = number.map(item => item > 5)
+// console.log(find);
+
+// let find2 = number.filter(item => item < 5)
+// console.log(find2);
+
+// let find = number.filter(item => {
+//     return item < 5
+// })
+
+// console.log(find);
+
+// let arraya = []
+// for(let i = 0; i < number.length; i++){
+//     // console.log(number[i]);
+//     if(number[i] > 5){
+//         // console.log(number[i]);
+//         arraya.push(number[i])
+//     }
+
+// }
+
+// console.log(arraya);
+
+// let filterd = products.filter((item) => item.category === 'Kitchen Appliances' && item.price > 100 && item.price <  500
+// )
+
+// console.log(filterd);
+
+let div = document.querySelector('div')
+
+function filterdbtn(btn){
+    div.innerHTML = ''
+    console.log(btn.innerHTML);
+    let filterd2 = products.filter(item => {
+        return item.category === btn.innerHTML
+    }).map(item => {
+        div.innerHTML += 
+        `
+    <h1>${item.brand} ${item.name}</h1>
+    <h1>${item.price}</h1>
+    <h1>${item.category}</h1>
+    <hr />h
+    `
+    // return item.category === btn.innerHTML
+    })
+    // console.log(filterd2);
+}
+
+
+products.map(item => {
+    div.innerHTML += `
+    <h1>${item.brand} ${item.name}</h1>
+    <h1>${item.price}</h1>
+    <h1>${item.category}</h1>
+    <hr />h
+    `
 })
 
-console.log(filterCategry);
+
+
+// console.log(filterdItem);
