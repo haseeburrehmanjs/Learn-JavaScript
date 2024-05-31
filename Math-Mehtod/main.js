@@ -58,4 +58,36 @@
 // }
 // console.log(hello('haseeb'));
 
+// Round 
+// Matlab ka desimal value .5 sa bari ho to 3 ha to 4 ho jai ga agr.5 sa choti to 3 hi raha ga!
 
+// ceil
+// Higest Value print kara na ka liya like 2.1 bhi hoto wo 3 print hi krai ga matlab ka desimal value ko bhi wo 1 smja ga!
+
+// floor
+// Point ka bad wali value ko .5 ko zero hi smja ga!
+
+// trunc 
+// Point ka bad wali value na show nahi krta!
+
+// pow 
+// power check krna ka liya!
+
+// sqrt
+// squre pata krna ka liya!
+
+// random
+// random number lana ka liya 
+
+
+let ceil = Math.ceil(1.23) // ==> 1 ko 2 kr daga
+console.log(`CEAIL KA RESULT => ${ceil}`);
+
+let floor = Math.floor(1.5) // ==> jo ha wohi hi raha ga
+console.log(`FLOOR KA RESULT => ${floor}`);
+
+let trunc = Math.trunc(4.2354435) // ==> point ka bad wali value print nahi krta
+console.log(`TRUNC KA RESULT => ${trunc}`);
+
+let pow = Math.pow(10,2) // power nikal na ka liya 
+console.log(`POW KA RESLUT => ${pow}`);
