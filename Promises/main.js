@@ -37,29 +37,29 @@ console.log('hello javascript');
 // .catch()
 
 
-let div = document.querySelector('div')
+// let div = document.querySelector('div')
 
-axios('https://fakestoreapi.com/products')
-.then((res)=>{
-    console.log(res.data);
-    res.data.map((item,index) => {
-        div.innerHTML += `
-        <div class="card p-3" style="width: 18rem;">
-  <img src="${item.image}" width='300' height='300' class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Price : $${item.price}</h5>
-    <h5 class="card-title">${item.category}</h5>
-    <p class="card-text">Rating : ${item.rating.rate} Count : ${item.rating.count}</p>
-    <a class="btn btn-info" onclick='addtocard(${index})'>Add to Card</a>
-  </div>
-</div>
-        `
-    })
-    
-})
-.catch((error)=>{
-    console.log(error);
-})
+// axios('https://fakestoreapi.com/products')
+//   .then((res) => {
+//     console.log(res.data);
+//     res.data.map((item, index) => {
+//       div.innerHTML += `
+//         <div class="card p-3" style="width: 18rem;">
+//   <img src="${item.image}" width='300' height='300' class="card-img-top" alt="...">
+//   <div class="card-body">
+//     <h5 class="card-title">Price : $${item.price}</h5>
+//     <h5 class="card-title">${item.category}</h5>
+//     <p class="card-text">Rating : ${item.rating.rate} Count : ${item.rating.count}</p>
+//     <a class="btn btn-info" onclick='addtocard(${index})'>Add to Card</a>
+//   </div>
+// </div>
+//         `
+//     })
+
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   })
 
 
 
@@ -127,3 +127,35 @@ axios('https://fakestoreapi.com/products')
 // </div>
 //   )
 // }
+
+
+axios('https://fakestoreapi.com/products')
+  .then(responce => {
+    console.log(responce.data);
+    responce.data.map(item => {
+      console.log(item)
+      againCard.innerHTML += `
+    <div class="card" style="width: 18rem;" p-3>
+  <img width='300' height='300' src="${item.image}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+    `
+    })
+  })
+  .catch(error => {
+    console.log(error);
+  })
+
+
+// axios('https://fakestoreapi.com/products')
+// .then(reponce => {
+//   console.log(reponce.data);
+//   reponce.data.map(item => {
+//     return item.category
+//   })
+// })
+// .catch(error => {
+//   console.log(error);
+// })
