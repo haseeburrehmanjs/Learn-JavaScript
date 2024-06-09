@@ -372,34 +372,73 @@ let number = [1,2,3,4,5,6,8,9]
 
 let div = document.querySelector('div')
 
-function filterdbtn(btn){
-    div.innerHTML = ''
-    console.log(btn.innerHTML);
-    let filterd2 = products.filter(item => {
-        return item.category === btn.innerHTML
-    }).map(item => {
-        div.innerHTML += 
-        `
-    <h1>${item.brand} ${item.name}</h1>
-    <h1>${item.price}</h1>
-    <h1>${item.category}</h1>
-    <hr />h
-    `
+// function filterdbtn(btn){
+//     div.innerHTML = ''
+//     console.log(btn.innerHTML);
+//     let filterd2 = products.filter(item => {
+//         return item.category === btn.innerHTML
+//     }).map(item => {
+//         div.innerHTML += 
+//         `
+//     <h1>${item.brand} ${item.name}</h1>
+//     <h1>${item.price}</h1>
+//     <h1>${item.category}</h1>
+//     <hr />
+//     `
     // return item.category === btn.innerHTML
-    })
+    // })
     // console.log(filterd2);
-}
+// }
 
 
-products.map(item => {
-    div.innerHTML += `
-    <h1>${item.brand} ${item.name}</h1>
-    <h1>${item.price}</h1>
-    <h1>${item.category}</h1>
-    <hr />h
-    `
-})
+// products.map(item => {
+//     div.innerHTML += `
+//     <h1>${item.brand} ${item.name}</h1>
+//     <h1>${item.price}</h1>
+//     <h1>${item.category}</h1>
+//     <hr />h
+//     `
+// })
 
 
 
 // console.log(filterdItem);
+
+products.map(item => {
+    // console.log(item);
+    div.innerHTML += `
+    <h1>Brand : ${item.brand}</h1>
+    <h1>Category : ${item.category}</h1>
+    <h1>Name : ${item.name}</h1>
+    <h1>Price : ${item.price}</h1>
+    <hr/>
+    `
+})
+
+let filterdbtn  = (btn) => {
+    div.innerHTML = ''
+    console.log(btn.innerHTML);
+    let filterd = products.filter(item => item.category === btn.innerHTML).map(item => {
+        div.innerHTML += `
+    <h1>Brand : ${item.brand}</h1>
+    <h1>Category : ${item.category}</h1>
+    <h1>Name : ${item.name}</h1>
+    <h1>Price : ${item.price}</h1>
+    <hr/>
+    `
+    })
+}
+
+function allitem(){
+    div.innerHTML = ''
+    products.map(item => {
+        // console.log(item);
+        div.innerHTML += `
+        <h1>Brand : ${item.brand}</h1>
+        <h1>Category : ${item.category}</h1>
+        <h1>Name : ${item.name}</h1>
+        <h1>Price : ${item.price}</h1>
+        <hr/>
+        `
+    })
+}
