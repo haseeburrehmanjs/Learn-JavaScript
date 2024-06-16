@@ -87,9 +87,58 @@ let ul = document.querySelector('ul')
 // using for loop. Table number & length should be taken as an
 // input from user.
 
-let table = +prompt('enter your table number')
-let length = +prompt('enter table number')
+// let table = +prompt('enter your table number')
+// let length = +prompt('enter table number')
 
-for(let i = 1; i <= length; i++){
-    console.log(`${table} x ${i} = ${table*i}`);
-}
+// for(let i = 1; i <= length; i++){
+//     console.log(`${table} x ${i} = ${table*i}`);
+// }
+
+// 1. Write a program to check whether the given input number is
+// divisible by 3 or else show a message “Number is not divisible
+// by 3”.
+
+// let number = 12
+
+// if(number % 3 === 0){
+//     console.log('THIS NUMBER IS DIVISBLE BY 3');
+// }else {
+//     console.log('number is not divisible by 3');
+// }
+
+// 2. Write a program that checks whether the given input is an even
+// number or an odd number
+
+// let number = 10;
+
+// if (number % 2 === 0 ){
+//     console.log('this is even number');
+// }else {
+//     console.log('This is odd number');
+// }
+
+
+// 3. Write an if/else statement with the following condition:
+// If the variable age is greater than 18, output "Old enough",
+// otherwise output "Too young".
+
+
+// let age = 18;
+
+// if (age > 18){
+//     console.log('Old enough');
+// }else {
+//     console.log('Too young');
+// }
+
+
+// 4. Write a program that prompts the user for their name, and then
+// displays a special greeting to that person if their name is the
+// same as yours. If the name entered by the user is anything
+// other than your name, your code should not produce any
+// output.
+
+
+let usnerName = 'Haseeb Ur Rehman'
+
+if (usnerName === Hass)
