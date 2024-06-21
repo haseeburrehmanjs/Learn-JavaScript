@@ -83,26 +83,26 @@ console.log('hello javascript');
 
 
 
-const againCard = document.querySelector('.again-Card')
+// const againCard = document.querySelector('.again-Card')
 
-axios('https://fakestoreapi.com/products')
-.then(responnce => {
-  console.log(responnce.data)
-  responnce.data.map(item => {
-    console.log(item);
-    againCard.innerHTML += `
-  <div class="card" style="width: 18rem;" p-3>
-  <img width='300' height='300' src="${item.image}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-  `
-  })
-})
-.catch(error => {
-  console.log(error);
-})
+// axios('https://fakestoreapi.com/products')
+// .then(responnce => {
+//   console.log(responnce.data)
+//   responnce.data.map(item => {
+//     console.log(item);
+//     againCard.innerHTML += `
+//   <div class="card" style="width: 18rem;" p-3>
+//   <img width='300' height='300' src="${item.image}" class="card-img-top" alt="...">
+//   <div class="card-body">
+//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//   </div>
+// </div>
+//   `
+//   })
+// })
+// .catch(error => {
+//   console.log(error);
+// })
 
 
 // let modal = document.querySelector('.modal1')
@@ -129,24 +129,24 @@ axios('https://fakestoreapi.com/products')
 // }
 
 
-axios('https://fakestoreapi.com/products')
-  .then(responce => {
-    console.log(responce.data);
-    responce.data.map(item => {
-      console.log(item)
-      againCard.innerHTML += `
-    <div class="card" style="width: 18rem;" p-3>
-  <img width='300' height='300' src="${item.image}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-    `
-    })
-  })
-  .catch(error => {
-    console.log(error);
-  })
+// axios('https://fakestoreapi.com/products')
+//   .then(responce => {
+//     console.log(responce.data);
+//     responce.data.map(item => {
+//       console.log(item)
+//       againCard.innerHTML += `
+//     <div class="card" style="width: 18rem;" p-3>
+//   <img width='300' height='300' src="${item.image}" class="card-img-top" alt="...">
+//   <div class="card-body">
+//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//   </div>
+// </div>
+//     `
+//     })
+//   })
+//   .catch(error => {
+//     console.log(error);
+//   })
 
 
 // axios('https://fakestoreapi.com/products')
@@ -159,3 +159,16 @@ axios('https://fakestoreapi.com/products')
 // .catch(error => {
 //   console.log(error);
 // })
+
+
+
+
+
+
+axios('https://jsonplaceholder.typicode.com/users')
+.then(responce => {
+  console.log(responce.data);
+})
+.catch(error => {
+  console.log(error);
+})

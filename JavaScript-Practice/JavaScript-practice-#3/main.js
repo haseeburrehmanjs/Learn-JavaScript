@@ -688,3 +688,10 @@ const products = [
 // let total = student.slic(0,1)
 // console.log(total);
 
+axios('https://fakestoreapi.com/products')
+.then(responce => {
+    console.log(responce);
+})
+.catch(error => {
+    console.log(error);
+})

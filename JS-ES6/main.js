@@ -3,7 +3,7 @@
 // Default parameters // ============== DONE
 // Rest parameter // ================== DONE
 // Spread Operator // ================= DONE
-// Ternary Operator //p
+// Ternary Operator // =============== DONE
 // Variable Scoping // p
 // Closure //p
 // lexical scoping //p
@@ -57,10 +57,10 @@ let [Banana, apple, watermelon, grapes] = fruits
 
 let UserName = 'Haseeb Ur Rehman'
 let intro = 'My age is 17 and i am student saylani mass it training program'
-console.log(UserName + intro);
+// console.log(UserName + intro);
 
 // TEMPLARA LITERALS
-console.log(`${UserName} ${intro}`);
+// console.log(`${UserName} ${intro}`);
 
 
 // ================> Default parameters <==============
@@ -79,7 +79,7 @@ function sayHello(username = 'Haseeb Ur Rehman', cast = 'rajput') {
 function Hello(...student) {
     console.log(student);
 }
-Hello('Haseeb', 'Jawad', 'Ahmed');
+// Hello('Haseeb', 'Jawad', 'Ahmed');
 
 
 // ================> Spread parameter <==============
@@ -89,4 +89,18 @@ let number = [1,2,3,4,5,6,7]
 let number2 = [8,9,10,11,12,13,14]
 
 let finalResults = [...number,...number2]
-console.log(finalResults);
+// console.log(finalResults);
+
+
+// ================> Ternary Operator  <==============
+
+let marks = 10
+
+if(marks >= 50){
+    console.log('You are passed');
+}else {
+    console.log('You are failed');
+}
+
+
+marks >= 50 ? console.log('you are passed') : console.log('you are failed');
