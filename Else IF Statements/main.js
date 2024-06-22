@@ -227,7 +227,13 @@ console.log(typeof(num3));
 
 
 
+// 12. This if/else statement does not work. Try to fix it:
 
 
+let hour = '12pm'
 
-
+if(hour === '12pm'){
+    console.log('good morning');
+}else {
+    console.log('today is night');
+}

@@ -4,6 +4,8 @@
 // Rest parameter // ================== DONE
 // Spread Operator // ================= DONE
 // Ternary Operator // =============== DONE
+// Arrow functions  // ================ DONE
+// Promises  //p
 // Variable Scoping // p
 // Closure //p
 // lexical scoping //p
@@ -11,14 +13,12 @@
 // Object Methods (keys,values,freez,entries)
 // Exponentiation Operator // p
 // Optional chaining //p
-// Arrow functions  //p
 // Enhanced object literals //p
 // Iterators & For..of  //p
 // Map  //p
 // Array methods  //p
 // Higher-order function  //p
 // CallBack  //p
-// Promises  //p
 
 // ================> Destructuring <==============
 
@@ -102,5 +102,21 @@ if(marks >= 50){
     console.log('You are failed');
 }
 
-
+// TERNARY OPERATOR
 marks >= 50 ? console.log('you are passed') : console.log('you are failed');
+
+
+// ================> Arrow functions  <==============
+
+// NORMAL FUNCTION
+
+function deleteBtn(){
+    return'delete'
+}
+// console.log(deleteBtn());
+
+// ARROW FUNCTION
+const deletebtn = ()=> {
+    return console.log('delete');
+}
+// deletebtn()

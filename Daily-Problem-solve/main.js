@@ -42,7 +42,7 @@
 
 
 // let education = [];
-let ul = document.querySelector('ul')
+// let ul = document.querySelector('ul')
 
 // for(let i = 0; i < 5; i++){
 //     education.push(prompt('Enter Education do you want'))
@@ -141,4 +141,67 @@ let ul = document.querySelector('ul')
 
 let usnerName = 'Haseeb Ur Rehman'
 
-if (usnerName === Hass)
+if (usnerName === 'Haseeb Ur Rehman') {
+    console.log('thanks haseeb for your joing');
+} else {
+    console.log('you are not haseeb');
+}
+
+
+let fruits = ['apple', 'banana', 'graps', 'watermelon', 'khubani']
+let ul = document.querySelector('ul')
+
+function renderItem() {
+    ul.innerHTML = ''
+    for (let i = 0; i < fruits.length; i++) {
+        // console.log(fruits[i]);
+        ul.innerHTML += `
+        <li>${fruits[i]} <button onclick='deleteBtn(${i})'>delete</button></li>
+        `
+    }
+}
+// renderItem()
+
+function deleteBtn(i) {
+    ul.innerHTML = ''
+    fruits.splice(1, i)
+    renderItem()
+}
+
+
+let h1 = document.querySelector('h1')
+let input = document.querySelector('input')
+let form = document.querySelector('form')
+
+let cites = ['karachi', 'lahore', 'islamabad', 'peshawer']
+
+form.addEventListener('submit', event => {
+    event.preventDefault()
+    if (cites.includes(input.value.toLocaleLowerCase())) {
+        console.log('you are live in safest city');
+        h1.innerHTML = 'you are live in safest city'
+    } else {
+        console.log('zindagi jhand ha bhai');
+        h1.innerHTML = 'Zindagi jhand ha bhai'
+        console.log(input.value.toLocaleLowerCase());
+    }
+    input.value = ''
+})
+
+
+
+function renderScreen() {
+    ul.innerHTML = ''
+    for (let i = 0; i < cites.length; i++) {
+        // console.log(cites[i]);
+        ul.innerHTML += `
+        <li>${cites[i]} <button onclick='deleteBTN(${i})'> DELETE</button></li>
+        `
+    }
+}
+renderScreen()
+
+function deleteBTN(index) {
+    cites.splice(1, index)
+    renderScreen()
+}
