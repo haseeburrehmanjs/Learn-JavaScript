@@ -85,10 +85,10 @@ function Hello(...student) {
 // ================> Spread parameter <==============
 
 // SPREAD PARAMETER
-let number = [1,2,3,4,5,6,7]
-let number2 = [8,9,10,11,12,13,14]
+let number = [1, 2, 3, 4, 5, 6, 7]
+let number2 = [8, 9, 10, 11, 12, 13, 14]
 
-let finalResults = [...number,...number2]
+let finalResults = [...number, ...number2]
 // console.log(finalResults);
 
 
@@ -96,27 +96,51 @@ let finalResults = [...number,...number2]
 
 let marks = 10
 
-if(marks >= 50){
-    console.log('You are passed');
-}else {
-    console.log('You are failed');
-}
+// if (marks >= 50) {
+//     console.log('You are passed');
+// } else {
+//     console.log('You are failed');
+// }
 
 // TERNARY OPERATOR
-marks >= 50 ? console.log('you are passed') : console.log('you are failed');
+// marks >= 50 ? console.log('you are passed') : console.log('you are failed');
 
 
 // ================> Arrow functions  <==============
 
 // NORMAL FUNCTION
 
-function deleteBtn(){
-    return'delete'
+function deleteBtn() {
+    return 'delete'
 }
 // console.log(deleteBtn());
 
 // ARROW FUNCTION
-const deletebtn = ()=> {
+const deletebtn = () => {
     return console.log('delete');
 }
 // deletebtn()
+
+
+// ================> Promises <==============
+
+let bankBalance = 550000;
+
+function shadi(){
+    return new Promise((resolve, resject)=>{
+        if(bankBalance >= 80000){
+            resolve('aba man gai')
+            console.log('aba man gai');
+        }else {
+            resject('ama nahi mana gi');
+            console.log('ama nahi mana gi');
+        }
+    })
+}
+shadi()
+.then(responce => {
+    console.log(responce);
+})
+.catch(error => {
+    console.log(error);
+})
