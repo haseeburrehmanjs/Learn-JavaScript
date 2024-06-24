@@ -688,10 +688,31 @@ const products = [
 // let total = student.slic(0,1)
 // console.log(total);
 
-axios('https://fakestoreapi.com/products')
-.then(responce => {
-    console.log(responce);
-})
-.catch(error => {
-    console.log(error);
-})
+// axios('https://fakestoreapi.com/products')
+// .then(responce => {
+//     console.log(responce);
+// })
+// .catch(error => {
+//     console.log(error);
+// })
+
+
+// let array1 = [1,2,3,4,5,6,7,8,9]
+// let array2 = [1,2,3,4,5,6,7,8,9]
+
+// let array3 = [...array1,...array2]
+// console.log(array3);
+
+
+let obj = {
+    usernaem : 'haseeb ur rehman',
+    gmail : 'haseeburrehmanjs@gmail.com',
+    age : 17,
+    hobbies : [
+        'swimming',
+        'cricket'
+    ]
+}
+
+let {usernaem, gmail, hobbies,} = obj 
+console.log(hobbies);
