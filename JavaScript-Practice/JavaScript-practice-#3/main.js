@@ -704,15 +704,32 @@ const products = [
 // console.log(array3);
 
 
+// let obj = {
+//     usernaem : 'haseeb ur rehman',
+//     gmail : 'haseeburrehmanjs@gmail.com',
+//     age : 17,
+//     hobbies : [
+//         'swimming',
+//         'cricket'
+//     ]
+// }
+
+// let {usernaem, gmail, hobbies,} = obj 
+// console.log(hobbies);
+
+
+// Destructuring 
+
 let obj = {
-    usernaem : 'haseeb ur rehman',
-    gmail : 'haseeburrehmanjs@gmail.com',
-    age : 17,
+    username : 'haseeb ur rehman',
+    email : 'haseeburrehmanjs@gmail.com',
+    rollnumber : 193056,
     hobbies : [
-        'swimming',
-        'cricket'
+        'cricket',
+        'swimming'
     ]
 }
 
-let {usernaem, gmail, hobbies,} = obj 
-console.log(hobbies);
+let {username , email , rollnumber,hobbies} = obj
+
+console.log(obj.username);
