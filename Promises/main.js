@@ -165,10 +165,17 @@ console.log('hello javascript');
 
 
 
-axios('https://jsonplaceholder.typicode.com/users')
-.then(responce => {
-  console.log(responce.data);
-})
-.catch(error => {
-  console.log(error);
-})
+// axios('https://jsonplaceholder.typicode.com/users')
+// .then(responce => {
+//   console.log(responce.data);
+// })
+// .catch(error => {
+//   console.log(error);
+// })
+
+
+// function add(a = 10, b = 15, c = 25){4
+//   console.log(a, b, c);
+// }
+
+// add(1, undefined, undefined)

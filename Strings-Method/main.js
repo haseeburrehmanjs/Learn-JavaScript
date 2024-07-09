@@ -134,12 +134,12 @@
 //  var num = 35.36 ;
 // Remove the dot to display “3536” display in your browser.
 
-let numOne = 35.36;
-let ubdate = numOne.(2,)
-console.log(ubdate);
+// let numOne = 35.36;
+// let ubdate = numOne.(2,)
+// console.log(ubdate);
 
-let numTwo = numOne.slice()
-document.write(numTwo)
+// let numTwo = numOne.slice()
+// document.write(numTwo)
 
 // =====> NOT COMPLETEED TASK! XXXXXXXXXXXXXXXX
 
@@ -210,8 +210,8 @@ document.write(numTwo)
 // let university = 'University of Karachi';
 // let change = university.split('')
 // let ul = document.querySelector('ul')
-// // console.log(change);
-// // document.write(change)
+// console.log(change);
+// document.write(change)
 
 // for(let i = 1; i <= change.length; i++){
 //     ul.innerHTML += `<li>${change[i]}</li>`
@@ -221,7 +221,15 @@ document.write(numTwo)
 
 // 22. Write a program to display the last character of a user input.
 
-// let usnerInput = prompt('Enter Your Country Name!')
+let username = 'haseeb'
+
+let checklastWord = username.lastIndexOf('b')
+console.log(checklastWord);
+
+
+
+
+
 
 
 

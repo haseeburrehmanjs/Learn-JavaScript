@@ -32,13 +32,13 @@ let user = {
 let { username, education, age } = user
 // console.log(username);
 
-let employee = {
-    name: 'Jawad Nadmeem',
-    sallary: 50000,
-    employeeId: 1
-}
+// let employee = {
+//     name: 'Jawad Nadmeem',
+//     sallary: 50000,
+//     employeeId: 1
+// }
 
-let { name, sallary, employeeId } = employee
+// let { name, sallary, employeeId } = employee
 // console.log(employeeId);
 
 // ARRAY DESTRUCTURING
@@ -88,6 +88,10 @@ function Hello(...student) {
 let number = [1, 2, 3, 4, 5, 6, 7]
 let number2 = [8, 9, 10, 11, 12, 13, 14]
 
+for (const iterator of number2) {
+    console.log(iterator);
+}
+
 let finalResults = [...number, ...number2]
 // console.log(finalResults);
 
@@ -124,23 +128,59 @@ const deletebtn = () => {
 
 // ================> Promises <==============
 
-let bankBalance = 550000;
+// let bankBalance = 550000;
 
-function shadi(){
-    return new Promise((resolve, resject)=>{
-        if(bankBalance >= 80000){
-            resolve('aba man gai')
-            console.log('aba man gai');
-        }else {
-            resject('ama nahi mana gi');
-            console.log('ama nahi mana gi');
-        }
-    })
+// function shadi(){
+//     return new Promise((resolve, resject)=>{
+//         if(bankBalance >= 80000){
+//             resolve('aba man gai')
+//             console.log('aba man gai');
+//         }else {
+//             resject('ama nahi mana gi');
+//             console.log('ama nahi mana gi');
+//         }
+//     })
+// }
+// shadi()
+// .then(responce => {
+//     console.log(responce);
+// })
+// .catch(error => {
+//     console.log(error);
+// })
+
+
+// Object.entries
+// Object.value
+// Object.keys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const employee = {
+    name: 'Jawad Nadmeem',
+    sallary: 50000,
+    employeeId: 1
 }
-shadi()
-.then(responce => {
-    console.log(responce);
-})
-.catch(error => {
-    console.log(error);
-})
+
+
+let haseeb1 = Object.entries(employee)
+// console.log(haseeb1);
+
+// for (const key in haseeb1) {
+//     console.log(haseeb1[1]);
+// }
+for (let i = 0; i < 1; i++) {
+    console.log(haseeb1[1]);
+    
+}
