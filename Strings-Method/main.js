@@ -221,25 +221,64 @@
 
 // 22. Write a program to display the last character of a user input.
 
-let username = 'haseeb'
+// let username = 'haseeb'
 
-let checklastWord = username.lastIndexOf('b')
-console.log(checklastWord);
+// let checklastWord = username.lastIndexOf('b')
+// console.log(checklastWord);
+
+// let name = 'haseeb ur rehman'
+// let repoCount = 28
+
+// console.log(`my name is ${name} and my repo count is ${repoCount}`);
+// let gameName = 'haseeb ur rehman'
+
+// charAt
+// indexOf
+// length
+// substring
+// slice
+// trim
+// replace
+// includes
+// split
+
+// console.log(gameName.charAt(2)); // ===> from index and check string 
+// console.log(gameName.indexOf('s'));// ===> check string position
+// console.log(gameName.indexOf('h'));
+// console.log(gameName.length);
+// console.log(gameName);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.substring(0, 6));
+
+// let anotherString = gameName.slice(0 , 8)
+// console.log(anotherString);
+// let newstring = ' haseeb '
+
+// console.log(newstring);
+// console.log(newstring.trim()) // ==> for remove string white space
+// let url = 'https://haseeb.com/haseeb20%urRehman'
+// console.log(url.replace('20%', '-'));
+// console.log(url.includes('sunder'));
+// console.log(gameName.split(' '));
 
 
 
+let userName = 'haseeb ur rehman'
+let countRepo = 28
 
+console.log(`My name is ${userName.toUpperCase()} my repo count is ${countRepo}`);
+console.log(userName.charAt(0)) // ==> consa index pr konsa string ha. 
+console.log(userName.indexOf("h")) // ==> string konsa index pr ha.
+console.log(userName.length) // ==> string ya array ki length check krna ka liya
+console.log(userName.substring(10, 16)) // ==> khan sa la kr khan tak chaya
 
+let newString = userName.slice(7 , 10) // ==> khan sa lakr khan tak chaya 
+console.log(newString);
 
+let url = 'haseeburrehmanjs.com'
+console.log(url.replace('www', 'https'));
 
+let newUrl = `https.${url}`
+console.log(newUrl);
 
-
-
-
-
-
-
-
-
-
-
+console.log(newUrl.split(''));

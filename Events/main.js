@@ -26,16 +26,16 @@ let btn = document.querySelector('#btn')
 // ===============> bubbling
 // ===============> capturing
 
-// let ul = document.querySelector('#ul');
-// let instgram = document.querySelector('#instgram')
+let ul = document.querySelector('#ul');
+let instgram = document.querySelector('#instgram')
 
-// ul.addEventListener('click', function(){
-//     console.log('CHECKED EVENTS');
-// })
+ul.addEventListener('click', function(){
+    console.log('CHECKED EVENTS');
+}, false)
 
-// instgram.addEventListener('click', function(){
-//     console.log('instagram checked');
-// })
+instgram.addEventListener('click', function(){
+    console.log('instagram checked');
+}, true)
 
 // let ul = document.querySelector('ul')
 // let li = document.querySelector('#instgram')
@@ -128,3 +128,15 @@ let btn = document.querySelector('#btn')
 // })
 
 
+// let ul = document.querySelector('#ul')
+
+// ul.addEventListener('click' , event => {
+//     console.log(event.target.tagName);
+// })
+
+// let images = document.querySelector('#images')
+
+// images.addEventListener('click', event => {
+//     console.log(event.target.tagName);
+//     event.target.parentNode.remove()
+// })

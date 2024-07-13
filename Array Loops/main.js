@@ -296,7 +296,7 @@ const products = [
 
 // console.log('hello world!');
 
-let array = ['apple','banana','gawava','naspati','mango','watermelaon']
+// let array = ['apple','banana','gawava','naspati','mango','watermelaon']
 
 // for(let i of array){
 //     console.log(i);
@@ -442,3 +442,13 @@ function allitem(){
         `
     })
 }
+
+
+
+let array = ['apple','banana','gawava','naspati','mango','watermelaon']
+
+let arrayRender = array.map(item => item)
+let sort = arrayRender.sort((a,b) => {
+    return b.length - a.length
+})
+console.log(sort[0]);
