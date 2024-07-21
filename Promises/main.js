@@ -179,3 +179,12 @@ console.log('hello javascript');
 // }
 
 // add(1, undefined, undefined)
+
+
+axios('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
+.then(responce => {
+    console.log(responce.data);
+})
+.catch(error => {
+    console.log(error);
+})
