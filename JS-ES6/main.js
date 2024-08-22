@@ -184,3 +184,19 @@ for (let i = 0; i < 1; i++) {
     console.log(haseeb1[1]);
     
 }
+
+
+// object destructuring
+// let email = 'hasldhasl'
+// let password = 'asdkljasdl'
+
+// let addLocal = []
+
+// addLocal.push({
+//     email, 
+//     password
+// })
+
+// console.log(addLocal);
+
+
