@@ -179,12 +179,45 @@ console.log('hello javascript');
 // }
 
 // add(1, undefined, undefined)
+// let modal1 = document.querySelector('.modal1')
 
 
-axios('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
-.then(responce => {
-    console.log(responce.data);
+// axios('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
+//     .then(responce => {
+//         let data = responce.data.results
+//         let index = 1
+//         // console.log(data.question);
+//         modal1.innerHTML = `
+//     <h1>Qno :${index} ${data[index].question}</h1>
+//     <button id="nextBtn">Next</button>
+//     `
+//         let nextBtn = document.querySelector('#nextBtn')
+
+//         nextBtn.addEventListener('click', () => {
+//             // console.log('next');
+//             nextBtn + 1
+//         })
+//     })
+//     .catch(error => {
+//         console.log(error);
+//     })
+
+
+let form = document.querySelector('#form')
+let inputVal = document.querySelector('#input')
+let list = document.querySelector('#input')
+let addTodo = []
+
+form.addEventListener('submit', event => {
+    event.preventDefault()
+    addTodo.push(inputVal.value)
+    inputVal.value = ''
 })
-.catch(error => {
-    console.log(error);
-})
+
+function renderScreen(){
+    addTodo.map(item => {
+        console.log(item);
+    })
+}
+
+renderScreen()
