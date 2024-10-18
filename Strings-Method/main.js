@@ -20,6 +20,13 @@
 // let fullName = fName + lName
 // console.log(fullName);
 
+// const fName = prompt('enter first name')
+// const lName = prompt('enter first name')
+// const finalName = fName + lName
+// console.log(finalName);
+
+
+
 // =====> COMPLETEED TASK!
 
 // 2. Write a program to take a user input about his favorite mobile
@@ -30,6 +37,12 @@
 // let userLenght = userName.length
 // console.log(userLenght);
 
+
+// const userName = prompt('tell me your favirote mobile')
+// const length = userName.length
+// console.log(length);
+
+
 // =====> COMPLETEED TASK!
 
 // 3. Write a program to find the index of letter “n” in the word
@@ -38,6 +51,11 @@
 // let countryName = 'Pakistan'
 // let check = countryName.indexOf('n')
 // console.log(check);
+
+// const countryName = 'pakistani'
+// const findIndex = countryName.indexOf('n')
+// console.log(findIndex);
+
 
 // =====> COMPLETEED TASK!
 
@@ -48,6 +66,11 @@
 // console.log(user.length);
 // console.log(user.lastIndexOf());
 
+// const user =  'hello world'
+// const checkUser = user.lastIndexOf('l')
+// console.log(checkUser);
+
+
 // =====> COMPLETEED TASK!
 
 // 5. Write a program to find the character at 3rd index in the word
@@ -55,6 +78,10 @@
 
 // let countryName = 'Pakistan'
 // let x = countryName.charAt(3)
+// console.log(x);
+
+// const countryName = 'pakistan'
+// const x = countryName.charAt(5)
 // console.log(x);
 
 // =====> COMPLETEED TASK!
@@ -66,6 +93,11 @@
 // let fullName = fName.concat(lName)
 // console.log(fullName);
 
+// const myName = 'haseeb'
+// const Lname = ' ur rehman'
+// const finalName = myName.concat(Lname)
+// console.log(finalName);
+
 // =====> COMPLETEED TASK!
 
 // 7. Write a program to replace the “Hyder” to “Islam” in the word
@@ -75,6 +107,12 @@
 // let x = City.replace("Hyder", "Islam")
 // console.log(x);
 
+// const city = 'hydrabad'
+// const finalCity = city.replace('hydra', 'islam')
+// console.log(city);
+// console.log(finalCity);
+
+
 // =====> COMPLETEED TASK!
 
 // 8. Write a program to replace all occurrences of “and” in the
@@ -83,6 +121,11 @@
 // let pragraph = '“Ali and Sami are best friends. They play cricket and football together.”'
 // let change = pragraph.replaceAll('and', '&')
 // document.write(change)
+
+// const  pragraph = '“Ali and Sami are best friends. They play cricket and football together.”'
+// const finalSentace = pragraph.replaceAll('and', '$')
+// console.log(pragraph);
+// console.log(finalSentace);
 
 // =====> COMPLETEED TASK!
 
@@ -94,6 +137,11 @@
 // let num = +Number;
 // document.write(typeof(num))
 
+// const myNumber = '786'
+// const convertNumber = +myNumber
+// console.log(typeof(convertNumber));
+// console.log(typeof(myNumber));
+
 // =====> COMPLETEED TASK!
 
 // 10. Write a program that take a URL as user input in the
@@ -104,6 +152,13 @@
 // let ubdateUrl = Url.slice(4,)
 // document.write(ubdateUrl)
 
+
+// const Url = 'www.haseeburrehmanjs.com'
+// const FinalUrl = Url.slice(4)
+// console.log(Url);
+// console.log(FinalUrl);
+
+
 // =====> COMPLETEED TASK!
 
 // 11. Write a program that takes user input. Convert and show the
@@ -111,6 +166,13 @@
 
 // let dryFruits = "peanuts";
 // document.write(dryFruits.toUpperCase())
+
+// const FavVegitable = prompt('enter fav vagetable')
+// const finalWord = FavVegitable.toLocaleUpperCase()
+// console.log(finalWord);
+
+// console.log(new Date);
+
 
 // =====> COMPLETEED TASK!
 
@@ -137,6 +199,13 @@
 // let numOne = 35.36;
 // let ubdate = numOne.(2,)
 // console.log(ubdate);
+
+const number = 35.36
+const finalNumber = number.toString()
+const result = finalNumber.split('.')
+const finalResult = result.toString()
+console.log(finalResult);
+
 
 // let numTwo = numOne.slice()
 // document.write(numTwo)
@@ -263,22 +332,22 @@
 
 
 
-let userName = 'haseeb ur rehman'
-let countRepo = 28
+// let userName = 'haseeb ur rehman'
+// let countRepo = 28
 
-console.log(`My name is ${userName.toUpperCase()} my repo count is ${countRepo}`);
-console.log(userName.charAt(0)) // ==> consa index pr konsa string ha. 
-console.log(userName.indexOf("h")) // ==> string konsa index pr ha.
-console.log(userName.length) // ==> string ya array ki length check krna ka liya
-console.log(userName.substring(10, 16)) // ==> khan sa la kr khan tak chaya
+// console.log(`My name is ${userName.toUpperCase()} my repo count is ${countRepo}`);
+// console.log(userName.charAt(0)) // ==> consa index pr konsa string ha. 
+// console.log(userName.indexOf("h")) // ==> string konsa index pr ha.
+// console.log(userName.length) // ==> string ya array ki length check krna ka liya
+// console.log(userName.substring(10, 16)) // ==> khan sa la kr khan tak chaya
 
-let newString = userName.slice(7 , 10) // ==> khan sa lakr khan tak chaya 
-console.log(newString);
+// let newString = userName.slice(7 , 10) // ==> khan sa lakr khan tak chaya 
+// console.log(newString);
 
-let url = 'haseeburrehmanjs.com'
-console.log(url.replace('www', 'https'));
+// let url = 'haseeburrehmanjs.com'
+// console.log(url.replace('www', 'https'));
 
-let newUrl = `https.${url}`
-console.log(newUrl);
+// let newUrl = `https.${url}`
+// console.log(newUrl);
 
-console.log(newUrl.split(''));
+// console.log(newUrl.split(''));
